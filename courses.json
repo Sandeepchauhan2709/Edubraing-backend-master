@@ -1,0 +1,942 @@
+[
+    {
+    "course_name": "Power BI",
+    "slug": "powerbi",
+    "category": "technical",
+    "sections": [
+      {
+        "section_no": 1,
+        "section_name": "Understanding Power BI",
+        "section_lectures": [
+          {
+            "lecture_no": 1,
+            "lecture_name": "Introduction to Power BI",
+            "lecture_cloud_link": { 
+              "domain_url": "https://d302zovup67ade.cloudfront.net/",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Introduction to Power BI"
+            },
+            "lecture_file_path": "Introduction to Power BI"
+          },
+          {
+            "lecture_no": 2,
+            "lecture_name": "Power Bi Service",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Power+Bi+Service.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Power Bi Service"
+            },
+            "lecture_file_path": "Power Bi Service"
+          },
+          {
+            "lecture_no": 3,
+            "lecture_name": "Power Bi vs Other Visualisation Tools",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Power+Bi+vs+Other+Visualisation+Tools.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Power Bi vs Other Visualisation Tools"
+            },
+            "lecture_file_path": "Power Bi vs Other Visualisation Tools"
+          },
+          {
+            "lecture_no": 4,
+            "lecture_name": "What Power Bi exactly does?",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/What+Power+Bi+exactly+does%3F.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "What Power Bi exactly does?"
+            },
+            "lecture_file_path": "What Power Bi exactly does?"
+          }
+        ]
+      },
+      {
+        "section_no": 2,
+        "section_name": "Power BI Services",
+        "section_lectures": [
+          {
+            "lecture_no": 5,
+            "lecture_name": "What is Power Bi Services?",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/What+is+Power+Bi+Services%3Fmp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "What is Power Bi Services?"
+            },
+            "lecture_file_path": "What is Power Bi Services?"
+          },
+          {
+            "lecture_no": 6,
+            "lecture_name": "Discussing Power Bi Services ?",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Discussing+Power+Bi+Services+%3F.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Discussing Power Bi Services ?"
+            },
+            "lecture_file_path": "Discussing Power Bi Services ?"
+          },
+          {
+            "lecture_no": 7,
+            "lecture_name": "Installation of Power Bi Desktop",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Installation+of+Power+Bi++Desktop.mp4 ",
+              "bucket": "Courses",
+              "folder_name": "Power BI Mastery",
+              "file_name": "Installation of Power Bi Desktop"
+            },
+            "lecture_file_path": "Installation of Power Bi Desktop"
+          },
+          {
+            "lecture_no": 8,
+            "lecture_name": "Setup Of Power Bi Desktop",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Setup+Of+Power+Bi+Desktop.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Setup Of Power Bi Desktop"
+            },
+            "lecture_file_path": "Setup Of Power Bi Desktop"
+          }
+        ]
+      },
+      {
+        "section_no": 3,
+        "section_name": "Power Bi Workflow",
+        "section_lectures": [
+          {
+            "lecture_no": 9,
+            "lecture_name": "Power Bi Workflow",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Power+Bi+Workflow.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Power Bi Workflow"
+            },
+            "lecture_file_path": "Power Bi Workflow"
+          },
+          {
+            "lecture_no": 10,
+            "lecture_name": "Importing and Connecting Data",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Importing+and+Connecting+Data.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Importing and Connecting Data"
+            },
+            "lecture_file_path": "Importing and Connecting Data"
+          },
+          {
+            "lecture_no": 11,
+            "lecture_name": "Ways of Importing Data",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Ways+of+Importing+Data.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Ways of Importing Data"
+            },
+            "lecture_file_path": "Ways of Importing Data"
+          },
+          {
+            "lecture_no": 12,
+            "lecture_name": "Data Transformation",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Data+Transformation.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Data Transformation"
+            },
+            "lecture_file_path": "Data Transformation"
+          },
+          {
+            "lecture_no": 13,
+            "lecture_name": "Ways of Data Transformation",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Ways+of+Data+Transformation.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Ways of Data Transformation"
+            },
+            "lecture_file_path": "Ways of Data Transformation"
+          },
+          {
+            "lecture_no": 14,
+            "lecture_name": "Data Modelling",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Data+Modelling.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Data Modelling"
+            },
+            "lecture_file_path": "Data Modelling"
+          }
+        ]
+      },
+      {
+        "section_no": 4,
+        "section_name": "Visualizing and Analyzing Data",
+        "section_lectures": [
+          {
+            "lecture_no": 15,
+            "lecture_name": "Introduction to Visualizing and Analyzing Data",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Introduction+to+Visualizing+and+Analyzing+Data.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Introduction to Visualizing and Analyzing Data"
+            },
+            "lecture_file_path": "Introduction to Visualizing and Analyzing Data"
+          },
+          {
+            "lecture_no": 16,
+            "lecture_name": "Navigating the Power Bi Interface",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Navigating+the+Power+Bi+Interface.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Navigating the Power Bi Interface"
+            },
+            "lecture_file_path": "Navigating the Power Bi Interface"
+          },
+          {
+            "lecture_no": 17,
+            "lecture_name": "Discussing Navigation of the PowerBi Interface Theoretically",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Discussing+Navigation+of+the+PowerBi+Interface+Theoretically.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Discussing Navigation of the PowerBi Interface Theoretically"
+            },
+            "lecture_file_path": "Discussing Navigation of the PowerBi Interface Theoretically"
+          },
+          {
+            "lecture_no": 18,
+            "lecture_name": "Discussing Navigation of the PowerBi Interface Theoretically(Part2)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Discussing+Navigation+of+the+PowerBi+Interface+Theoretically%28Part2%29.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Discussing Navigation of the PowerBi Interface Theoretically(Part2)"
+            },
+            "lecture_file_path": "Discussing Navigation of the PowerBi Interface Theoretically(Part2)"
+          },
+          {
+            "lecture_no": 19,
+            "lecture_name": "Discussing Navigation of the PowerBi Interface Theoretically (part3)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Discussing+Navigation+of+the+PowerBi+Interface+Theoretically+%28part3%29mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Discussing Navigation of the PowerBi Interface Theoretically (part3)"
+            },
+            "lecture_file_path": "Discussing Navigation of the PowerBi Interface Theoretically (part3)"
+          }  
+        ]
+      },
+      {
+        "section_no": 5,
+        "section_name": "Visuals",
+        "section_lectures": [
+          {
+            "lecture_no": 20,
+            "lecture_name": "Types of Visuals and their Appropriate Use",
+            "lecture_cloud_link": {
+              "domain_url": "Types of Visuals and their Appropriate Use.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Types of Visuals and their Appropriate Use"
+            },
+            "lecture_file_path": "Types of Visuals and their Appropriate Use"
+          },
+          {
+            "lecture_no": 21,
+            "lecture_name": "Visual 1 Charts",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Visual+1+Charts.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Visual 1 Charts"
+            },
+            "lecture_file_path": "Visual 1 Charts"
+          },
+          {
+            "lecture_no": 22,
+            "lecture_name": "Visual 1 Charts( part2)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Visual+1+Charts%28+part2%29.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Visual 1 Charts( part2)"
+            },
+            "lecture_file_path": "Visual 1 Charts( part2)"
+          },
+          {
+            "lecture_no": 23,
+            "lecture_name": "Visual 2 Filters",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Visual+2+Filters.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Visual 2 Filters"
+            },
+            "lecture_file_path": "Visual 2 Filters"
+          },
+          {
+            "lecture_no": 24,
+            "lecture_name": "How to apply Filters",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/How+to+apply+Filters.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "How to apply Filters"
+            },
+            "lecture_file_path": "How to apply Filters"
+          }  
+        ]
+      },
+      {
+        "section_no": 6,
+        "section_name": "Advanced Topics",
+        "section_lectures": [
+          {
+            "lecture_no": 25,
+            "lecture_name": "DAX",
+            "lecture_cloud_link": {
+              "domain_url": "https://url.com",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Advanced Topics in Power Bi: DAX"
+            },
+            "lecture_file_path": "Advanced Topics in Power Bi: DAX"
+          },
+          {
+            "lecture_no": 26,
+            "lecture_name": "Functions of DAX",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Functions+of+DAX.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Functions of DAX"
+            },
+            "lecture_file_path": "Functions of DAX"
+          },
+          {
+            "lecture_no": 27,
+            "lecture_name": "Functions of DAX(part2)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Functions+of+DAX%28part2%29mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Functions of DAX(part2)"
+            },
+            "lecture_file_path": "Functions of DAX(part2)"
+          }
+        ]
+      },
+      {
+        "section_no": 7,
+        "section_name": "Advanced Topic 2",
+        "section_lectures": [
+          {
+            "lecture_no": 28,
+            "lecture_name": "Calculated Coulmns",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Advanced+Topic+2%3A+Calculated+Coulmns.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Advanced Topic 2: Calculated Coulmns"
+            },
+            "lecture_file_path": "Advanced Topic 2: Calculated Coulmns"
+          }  
+        ]
+      },
+      { 
+        "section_no": 8,
+        "section_name": "Advanced Topic 3",
+        "section_lectures": [
+          {
+            "lecture_no": 29,
+            "lecture_name": "Sharing Reports withWorkplaces",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Advanced+Topic+3%3A+Sharing+Reports+withWorkplaces.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Advanced Topic 3: Sharing Reports withWorkplaces"
+            },
+            "lecture_file_path": "Advanced Topic 3: Sharing Reports withWorkplaces"
+          },  
+          {
+            "lecture_no": 30,
+            "lecture_name": "Building Reports in Power BI",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Building+Reports+in+Power+BI.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Building Reports in Power BI"
+            },
+            "lecture_file_path": "Building Reports in Power BI"
+          },  
+          {
+            "lecture_no": 31,
+            "lecture_name": "Best Practices for PowerBI Usage",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Advanced+Topic+3%3A+Sharing+Reports+withWorkplaces.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Best Practices for PowerBI Usage"
+            },
+            "lecture_file_path": "Best Practices for PowerBI Usage"
+          },  
+          {
+            "lecture_no": 32,
+            "lecture_name": "AI Visuals",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Advanced+Topic+3%3A+Sharing+Reports+withWorkplaces.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "AI Visuals"
+            },
+            "lecture_file_path": "AI Visuals"
+          },  
+          {
+            "lecture_no": 33,
+            "lecture_name": "What is Row Level Security?",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/What+is+Row+Level+Security%3F.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "What is Row Level Security?"
+            },
+            "lecture_file_path": "What is Row Level Security?"
+          },  
+          {
+            "lecture_no": 34,
+            "lecture_name": "What is Data Refresh and its strategies?",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Advanced+Topic+3%3A+Sharing+Reports+withWorkplaces.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "What is Data Refresh and its strategies?"
+            },
+            "lecture_file_path": "What is Data Refresh and its strategies?"
+          },
+          {
+            "lecture_no": 35,
+            "lecture_name": "Executing Power Bi Workflow Practically",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Executing+Power+Bi+Workflow+Practically.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Executing Power Bi Workflow Practically"
+            },
+            "lecture_file_path": "Executing Power Bi Workflow Practically"
+          },  
+          {
+            "lecture_no": 36,
+            "lecture_name": "Power Bi Workflow Part2",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Power+Bi+Workflow+Part2.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Power Bi Workflow Part2"
+            },
+            "lecture_file_path": "Power Bi Workflow Part2"
+          },  
+          {
+            "lecture_no": 37,
+            "lecture_name": "Power Bi Workflow Part3",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Power+Bi+Workflow+Part3+.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Power Bi Workflow Part3"
+            },
+            "lecture_file_path": "Power Bi Workflow Part3"
+          },  
+          {
+            "lecture_no": 38,
+            "lecture_name": "DAX Practical",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/DAX+Practical.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "DAX Practical"
+            },
+            "lecture_file_path": "DAX Practical"
+          }  
+        ]
+      },
+      {
+        "section_no": 9,
+        "section_name": "Project 1",
+        "section_lectures": [
+          {
+            "lecture_no": 39,
+            "lecture_name": "Starbucks and its Beverages",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project+1+Starbucks+and+its+Beverages.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project 1 Starbucks and its Beverages"
+            },
+            "lecture_file_path": "Project 1 Starbucks and its Beverages"
+          } 
+         
+        ]
+      },
+      {
+        "section_no": 10,
+        "section_name": "Project 1",
+        "section_lectures": [
+          {
+            "lecture_no": 40,
+            "lecture_name": "Starbucks and its Beverages",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project+1+Starbucks+and+its+Beverages.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project 1 Starbucks and its Beverages"
+            },
+            "lecture_file_path": "Project 1 Starbucks and its Beverages"
+          } 
+         
+        ]
+      },
+      {
+        "section_no": 11,
+        "section_name": "Project 1 : Netflix",
+        "section_lectures": [
+          {
+            "lecture_no": 41,
+            "lecture_name": "Netflix (Based on different languages used in the shows)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project1+%3A+Netflix+%28Based+on+different+languages+used+in+the+shows%29+.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project1 : Netflix (Based on different languages used in the shows)"
+            },
+            "lecture_file_path": "Project1 : Netflix (Based on different languages used in the shows)"
+          }, 
+          {
+            "lecture_no": 42,
+            "lecture_name": "Netflix (Part 2)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project+1%3A+Netflix+%28Part+2%29.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project 1: Netflix (Part 2)"
+            },
+            "lecture_file_path": "Project 1: Netflix (Part 2)"
+          } ,
+          {
+            "lecture_no": 43,
+            "lecture_name": "Netflix (Part 3)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project+1%3A+Netflix+%28Part+3%29.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project 1: Netflix (Part 3)"
+            },
+            "lecture_file_path": "Project 1: Netflix (Part 3)"
+          } ,
+          {
+            "lecture_no": 44,
+            "lecture_name": "Netflix (Part 4)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project+1%3A+Netflix+%28Part+4%29.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project 1: Netflix (Part 4)"
+            },
+            "lecture_file_path": "Project 1: Netflix (Part 4)"
+          }, 
+          {
+            "lecture_no": 45,
+            "lecture_name": "Netflix (Part 5)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project+1%3A+Netflix+%28Part+5%29.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project 1: Netflix (Part 5)"
+            },
+            "lecture_file_path": "Project 1: Netflix (Part 5)"
+          } ,
+          {
+            "lecture_no": 46,
+            "lecture_name": "Netflix (Part 6)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project+1%3A+Netflix+%28Part+6%29.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project 1: Netflix (Part 6)"
+            },
+            "lecture_file_path": "Project 1: Netflix (Part 6)"
+          } ,
+          {
+            "lecture_no": 47,
+            "lecture_name": "Netflix (Last Part)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project+1+%3A+Netflix+%28Last+Part%29.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project 1 : Netflix (Last Part)"
+            },
+            "lecture_file_path": "Project 1 : Netflix (Last Part)"
+          } 
+         
+        ]
+      },
+      {
+        "section_no": 12,
+        "section_name": "Project 2: Jobs & Salaries in Data Related Careers",
+        "section_lectures": [
+          {
+            "lecture_no": 48,
+            "lecture_name": "Project 2: (Part1)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project+2%3A+Jobs+%26+Salaries+in+Data+Related+Careers.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project 2: Jobs & Salaries in Data Related Careers"
+            },
+            "lecture_file_path": "Project 2: Jobs & Salaries in Data Related Careers"
+          }, 
+          {
+            "lecture_no": 49,
+            "lecture_name": "Project 2: (Part2)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project+2%3A+%28Part2%29.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project 2: (Part2)"
+            },
+            "lecture_file_path": "Project 2: (Part2)"
+          },
+          {
+            "lecture_no": 50,
+            "lecture_name": "Project 2: (Part3)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project+2%3A+%28Part3%29.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project 2: (Part3)"
+            },
+            "lecture_file_path": "Project 2: (Part3)"
+          },
+          {
+            "lecture_no": 51,
+            "lecture_name": "Project 2: (Part4)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project+2%3A+%28Part4%29.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project 2: (Part4)"
+            },
+            "lecture_file_path": "Project 2: (Part4)"
+          },
+          {
+            "lecture_no": 52,
+            "lecture_name": "Project 2: (Part5)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project+2%3A+%28Part5%29.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project 2: (Part5)"
+            },
+            "lecture_file_path": "Project 2: (Part5)"
+          },
+          {
+            "lecture_no": 53,
+            "lecture_name": "Project 2: (Part6)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project+2%3A+%28Part6%29.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project 2: (Part6)"
+            },
+            "lecture_file_path": "Project 2: (Part6)"
+          },
+          {
+            "lecture_no": 54,
+            "lecture_name": "Project 2: (Part7)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project+2%3A+%28Part7%29.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project 2: (Part7)"
+            },
+            "lecture_file_path": "Project 2: (Part7)"
+          },
+          {
+            "lecture_no": 55,
+            "lecture_name": "Project 2: (Part8)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project+2%3A+%28Part8%29mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project 2: (Part8)"
+            },
+            "lecture_file_path": "Project 2: (Part8)"
+          },
+          {
+            "lecture_no": 56,
+            "lecture_name": "Project 2: (Last Part)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project+2%3A+%28Last+Part%29",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project 2: (Last Part)"
+            },
+            "lecture_file_path": "Project 2: (Last Part)"
+          }
+        ]
+      },
+      {
+        "section_no": 13,
+        "section_name": "Project 3: Food & Beverages",
+        "section_lectures": [
+          {
+            "lecture_no": 57,
+            "lecture_name": "Project 3: (Part1)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project+3+%3A+Food+%26+Beverages.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project 3: Food & Beverages"
+            },
+            "lecture_file_path": "Project 3: Food & Beverages"
+          }, 
+          {
+            "lecture_no": 58,
+            "lecture_name": "Project 3: (Part2)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project+3%3A+%28Part+2%29.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project 3: (Part2)"
+            },
+            "lecture_file_path": "Project 3: (Part2)"
+          },
+          {
+            "lecture_no": 59,
+            "lecture_name": "Project 3: (Part3)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project+3%3A+%28Part+3%29.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project 3: (Part3)"
+            },
+            "lecture_file_path": "Project 3: (Part3)"
+          },
+          {
+            "lecture_no": 60,
+            "lecture_name": "Project 3: (Part4)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project+3%3A+%28Part+4%29mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project 3: (Part4)"
+            },
+            "lecture_file_path": "Project 3: (Part4)"
+          },
+          {
+            "lecture_no": 61,
+            "lecture_name": "Project 3: (Part5)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project+3%3A+%28Part+5%29.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project 3: (Part5)"
+            },
+            "lecture_file_path": "Project 3: (Part5)"
+          },
+          {
+            "lecture_no": 62,
+            "lecture_name": "Project 3: (Part6)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project+3%3A+%28Part+6%29.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project 3: (Part6)"
+            },
+            "lecture_file_path": "Project 3: (Part6)"
+          },
+          {
+            "lecture_no": 63,
+            "lecture_name": "Project 3: (Part7)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project+3%3A+%28Part+7%29mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project 3: (Part7)"
+            },
+            "lecture_file_path": "Project 3: (Part7)"
+          },
+          {
+            "lecture_no": 64,
+            "lecture_name": "Project 3: (Part8)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project+3%3A+%28Part+8%29.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project 3: (Part8)"
+            },
+            "lecture_file_path": "Project 3: (Part8)"
+          },
+          {
+            "lecture_no": 65,
+            "lecture_name": "Project 3: (Last Part)",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Project+3%3A+%28Last+Part%29.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Project 3: (Last Part)"
+            },
+            "lecture_file_path": "Project 3: (Last Part)"
+          }
+       
+        ]
+      },
+      {
+        "section_no": 14,
+        "section_name": "Interview Questions",
+        "section_lectures": [
+          {
+            "lecture_no": 66,
+            "lecture_name": "Interview Question : 1",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Interview+Question+%3A+1",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Interview Question : 1"
+            },
+            "lecture_file_path": "Interview Question : 1"
+          }, 
+          {
+            "lecture_no": 67,
+            "lecture_name": "Interview Question : 2",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Interview+Question+%3A+2+mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Interview Question : 2"
+            },
+            "lecture_file_path": "Interview Question : 2"
+          }, 
+          {
+            "lecture_no": 68,
+            "lecture_name": "Interview Question : 3",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Interview+Question+%3A+3+mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Interview Question : 3"
+            },
+            "lecture_file_path": "Interview Question : 3"
+          }, 
+          {
+            "lecture_no": 69,
+            "lecture_name": "Interview Question : 4",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Interview+Question+%3A+4.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Interview Question : 4"
+            },
+            "lecture_file_path": "Interview Question : 4"
+          }, 
+          {
+            "lecture_no": 70,
+            "lecture_name": "Interview Question : 5",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Interview+Question+%3A+5.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Interview Question : 5"
+            },
+            "lecture_file_path": "Interview Question : 5"
+          }, 
+          {
+            "lecture_no": 71,
+            "lecture_name": "Interview Question : 6",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Interview+Question+%3A+6.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Interview Question : 6"
+            },
+            "lecture_file_path": "Interview Question : 6"
+          }, 
+          {
+            "lecture_no": 72,
+            "lecture_name": "Interview Question : 7",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Interview+Question+%3A+7.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Interview Question : 7"
+            },
+            "lecture_file_path": "Interview Question : 7"
+          }, 
+          {
+            "lecture_no": 73,
+            "lecture_name": "Interview Question : 8",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Interview+Question+%3A+8.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Interview Question : 8"
+            },
+            "lecture_file_path": "Interview Question : 8"
+          }, 
+          {
+            "lecture_no": 74,
+            "lecture_name": "Interview Question : 9",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Interview+Question+%3A+9.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Interview Question : 9"
+            },
+            "lecture_file_path": "Interview Question : 9"
+          }, 
+          {
+            "lecture_no": 75,
+            "lecture_name": "Interview Question : 10",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Interview+Question+%3A+10.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "Interview Question : 10"
+            },
+            "lecture_file_path": "Interview Question : 10"
+          }
+         
+        ]
+      },
+      {
+        "section_no": 15,
+        "section_name": "successful completion of course",
+        "section_lectures": [
+          {
+            "lecture_no": 76,
+            "lecture_name": "successful completion of course",
+            "lecture_cloud_link": {
+              "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Successful+Completion+of+Course.mp4",
+              "bucket": "Courses",
+              "folder_name": "Power BI",
+              "file_name": "successful completion of course"
+            },
+            "lecture_file_path": "successful completion of course"
+          } 
+         
+        ]
+      }
+    ]
+  }
+
+]
