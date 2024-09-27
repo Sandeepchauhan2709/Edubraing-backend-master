@@ -1,42 +1,33 @@
-// models/CourseProgress.js
-// const mongoose = require('mongoose');
-import mongoose from 'mongoose';
-
+import mongoose from "mongoose";
 
 const ProgressSchema = new mongoose.Schema({
-    userId: { 
-      type: String, 
-      required: true 
+  userId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User',
+    required: true
+  },
+  courseId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Course',
+    required: true
+  },
+  completedLectures: [{
+    type: Number
+  }],
+  lectureProgress: [{
+    lectureNo: {
+      type: Number,
+      required: true
     },
-    courseId: { 
-      type: String, 
-      required: true 
-    },
-    progress: [
-      {
-        section_no: { 
-          type: Number, 
-          required: true 
-        },
-        lecture_no: { 
-          type: Number, 
-          
-          required: true },
-        timeSpent: { 
-          type: Number, 
-          default: 0 
-        }, // Time spent in seconds
-        completed: { 
-          type: Boolean, 
-          default: false },
-      }
-    ],
-    courseCompleted: { 
-      type: Boolean, 
-      
-      default: false }, // Is the entire course completed?
-  }, 
-  { 
-    timestamps: true 
-  });
+    progress: {
+      type: Number,
+      required: true,
+      min: 0,
+      max: 100
+    }
+  }]
+}, {
+  timestamps: true
+});
+
 export const Progress = mongoose.model('Progress', ProgressSchema);

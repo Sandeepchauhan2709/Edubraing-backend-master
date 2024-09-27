@@ -1,180 +1,94 @@
-// import { CourseProgress } from "../models/CourseProgress";
-import { Progress } from "../models/Progress.js";
-
-export const savePartialProgress = async (req, res) => {
-    const { userId, courseId, sectionNumber, lectureNumber, timeSpent } = req.body;
-  
-    try {
-      let progress = await Progress.findOne({ userId, courseId });
-  
-      if (!progress) {
-        progress = new Progress({ userId, courseId, progress: [] });
-      }
-  
-      const sectionProgress = progress.progress.find(
-        p => p.sectionNumber === sectionNumber && p.lectureNumber === lectureNumber
-      );
-  
-      if (sectionProgress) {
-        sectionProgress.timeSpent += timeSpent; 
-      } else {
-        progress.progress.push({
-          sectionNumber,
-          lectureNumber,
-          timeSpent,
-          completed: false,
-        });
-      }
-  
-      await progress.save();
-      res.status(200).json({ message: "Partial progress saved", progress });
-    } catch (err) {
-      res.status(500).json({ message: "Error saving progress", error: err });
-    }
-  };
-
-  export const markLectureAsComplete = async (req, res) => {
-    const { userId, courseId, sectionNumber, lectureNumber } = req.body;
-  
-    try {
-      let progress = await Progress.findOne({ userId, courseId });
-  
-      if (!progress) {
-        return res.status(404).json({ message: "Progress not found" });
-      }
-  
-      const sectionProgress = progress.progress.find(
-        p => p.sectionNumber === sectionNumber && p.lectureNumber === lectureNumber
-      );
-  
-      if (!sectionProgress) {
-        return res.status(404).json({ message: "Lecture not found" });
-      }
-  
-      sectionProgress.completed = true;
-  
-      await progress.save();
-      res.status(200).json({ message: "Lecture marked as complete", progress });
-    } catch (err) {
-      res.status(500).json({ message: "Error marking lecture as complete", error: err });
-    }
-  };
-
-
-export const saveCourseAsComplete = async (req, res) => {
-    const { userId, courseId } = req.body;
-  
-    try {
-      const progress = await Progress.findOneAndUpdate(
-        { userId, courseId },
-        { courseCompleted: true },
-        { new: true }
-      );
-  
-      if (!progress) {
-        return res.status(404).json({ message: "Progress not found" });
-      }
-  
-      res.status(200).json({ message: "Course marked as complete", progress });
-    } catch (err) {
-      res.status(500).json({ message: "Error marking course as complete", error: err });
-    }
-  };
-
+import { Progress } from '../models/Progress.js';
+import { Course } from '../models/Course.js';
 
 export const getAllProgress = async (req, res) => {
-    const { userId, courseId, courseName } = req.params;
-  
-    try {
-      const progress = await Progress.findOne({ userId, courseId, courseName });
-  
-      if (!progress) {
-        return res.status(404).json({ message: "No progress found for this user and course" });
-      }
-  
-      res.status(200).json({ progress });
-    } catch (err) {
-      res.status(500).json({ message: "Error retrieving progress", error: err });
+  try {
+    const { userId, courseId } = req.params;
+
+    const progress = await Progress.findOne({ userId, courseId });
+    const course = await Course.findById(courseId);
+
+    if (!course) {
+      return res.status(404).json({ message: "Course not found" });
     }
-  };
 
+    const totalLectures = course.sections.reduce((total, section) => 
+      total + section.section_lectures.length, 0);
 
+    const completedLectures = progress ? progress.completedLectures.length : 0;
 
+    res.status(200).json({
+      totalLectures,
+      completedLectures,
+      overallProgress: parseFloat(((completedLectures / totalLectures) * 100).toFixed(1))
+    });
+  } catch (error) {
+    res.status(500).json({ message: "Error fetching progress", error: error.message });
+  }
+};
 
+export const savePartialProgress = async (req, res) => {
+  try {
+    const { userId, courseId, lectureNumber, progress } = req.body;
 
+    // console.log(lectureNumber)
+    if (lectureNumber === 0 || lectureNumber == null) {
+      return res.status(200).json({ message: "Progress not needed to be saved" });
+    }
+    // Find the existing progress document or create a new one
+    let userProgress = await Progress.findOne({ userId, courseId });
 
+    if (!userProgress) {
+      userProgress = new Progress({
+        userId,
+        courseId,
+        completedLectures: [],
+        lectureProgress: []
+      });
+    }
+  
+    // Ensure lectureProgress is an array
+    if (!Array.isArray(userProgress.lectureProgress)) {
+      userProgress.lectureProgress = [];
+    }
 
+    // Check if the lecture is already completed
+    const isAlreadyCompleted = userProgress.completedLectures.includes(lectureNumber);
 
+    // Update the lectureProgress array
+    const lectureProgressIndex = userProgress.lectureProgress.findIndex(
+      lp => lp.lectureNo === lectureNumber
+    );
 
+    if (lectureProgressIndex > -1) {
+      // If the lecture is already completed, keep it at 100% progress
+      if (isAlreadyCompleted) {
+        userProgress.lectureProgress[lectureProgressIndex].progress = 100;
+      } else {
+        // If not completed, update progress only if the new progress is higher
+        userProgress.lectureProgress[lectureProgressIndex].progress = 
+          Math.max(userProgress.lectureProgress[lectureProgressIndex].progress, progress);
+      }
+    } else {
+      userProgress.lectureProgress.push({ lectureNo: lectureNumber, progress });
+    }
 
+    // Ensure all items in lectureProgress have both lectureNo and progress
+    userProgress.lectureProgress = userProgress.lectureProgress.filter(
+      lp => lp.lectureNo !== undefined && lp.progress !== undefined
+    );
 
-// export const getCourseProgress = async (req, res) => {
-//   const { userId, courseId } = req.params;
+    // Update completedLectures
+    if (progress === 100 && !isAlreadyCompleted) {
+      userProgress.completedLectures.push(lectureNumber);
+    }
+    // We no longer remove lectures from completedLectures
 
-//   try {
-//     const progress = await CourseProgress.findOne({ userId, courseId });
-//     if (progress) {
-//       res.json(progress);
-//     } else {
-//       res.status(404).json({ message: 'No progress found for this course.' });
-//     }
-//   } catch (error) {
-//     res.status(500).json({ message: 'Server error', error });
-//   }
-// };
+    // Save the updated progress
+    await userProgress.save();
 
-// // save the course progress
-// export const saveCourseProgress = async (req, res) => {
-//   const { userId, courseId, completedPercentage } = req.body;
-
-//   try {
-//     const progress = await CourseProgress.findOneAndUpdate(
-//       { userId, courseId },
-//       { completedPercentage, lastUpdated: new Date() },
-//       { new: true, upsert: true } // Creates a new document if not found
-//     );
-
-//     res.status(200).json({ message: 'Progress saved successfully', progress });
-//   } catch (error) {
-//     res.status(500).json({ message: 'Server error', error });
-//   }
-// };
-
-
-
-// //  last  video progress 
-// let userVideoProgress = [];
-
-// export const getLastPlayedVideo = async (req, res) => {
-//   const { userId, courseId } = req.params;
-
-//   try {
-//     const progress = await CourseProgress.findOne({ userId, courseId });
-//     if (progress) {
-//       res.json(progress);
-//     } else {
-//       res.status(404).json({ message: 'No progress found for this course.' });
-//     }
-//   } catch (error) {
-//     res.status(500).json({ message: 'Server error', error });
-//   }
-// };
-
-// //save video progres
-// export const saveLastPlayedVideo = async (req, res) => {
-//   const { userId, courseId, videoId, currentTime } = req.body;
-
-//   try {
-//     const progress = await CourseProgress.findOneAndUpdate(
-//       { userId, courseId },
-//       { videoId, currentTime },
-//       { new: true, upsert: true } // Upsert creates a new document if none matches the query
-//     );
-//     res.status(200).json({ message: 'Progress saved successfully', progress });
-//   } catch (error) {
-//     res.status(500).json({ message: 'Server error', error });
-//   }
-// };
-
-// // module.exports = { getLastPlayedVideo, saveLastPlayedVideo };
-
+    res.status(200).json({ message: "Progress saved successfully", progress: userProgress });
+  } catch (error) {
+    res.status(500).json({ message: "Error saving progress", error: error.message });
+  }
+};
