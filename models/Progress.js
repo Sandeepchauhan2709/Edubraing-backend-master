@@ -14,6 +14,10 @@ const ProgressSchema = new mongoose.Schema({
   completedLectures: [{
     type: Number
   }],
+  lastLecture:{
+    type: Number,
+    default: 0
+  },
   lectureProgress: [{
     lectureNo: {
       type: Number,

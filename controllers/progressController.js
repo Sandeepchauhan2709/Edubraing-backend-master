@@ -18,6 +18,7 @@ export const getAllProgress = async (req, res) => {
     const completedLectures = progress ? progress.completedLectures.length : 0;
 
     res.status(200).json({
+      lastLectureAccessed : progress.lastLecture,
       totalLectures,
       completedLectures,
       overallProgress: parseFloat(((completedLectures / totalLectures) * 100).toFixed(1))
@@ -90,5 +91,29 @@ export const savePartialProgress = async (req, res) => {
     res.status(200).json({ message: "Progress saved successfully", progress: userProgress });
   } catch (error) {
     res.status(500).json({ message: "Error saving progress", error: error.message });
+  }
+};
+
+
+export const updateLastLecture = async (req, res) => {
+  try {
+    const { userId, courseId , lastLecture } = req.body;
+
+    const updatedProgress = await Progress.findOneAndUpdate(
+      { userId, courseId },
+      { lastLecture },
+      { new: true, upsert: true }
+    );
+
+    res.status(200).json({
+      success: true,
+      message: "lastLecture updated successfully",
+      lastLectureAccessed : updatedProgress.lastLecture
+    });
+  } catch (error) {
+    res.status(400).json({
+      success: false,
+      error: error.message,
+    });
   }
 };
