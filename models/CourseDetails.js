@@ -12,6 +12,11 @@ const schema = new mongoose.Schema({
     required: [true, "Please enter course title"],
     minLength: [20, "title must be at least 20 charachters"],
   },
+  courseId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Course',
+    required: true
+  },
   lectures: [
     {
       title: {
