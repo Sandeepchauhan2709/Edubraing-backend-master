@@ -28,20 +28,20 @@ app.use(
 app.use(cookieParser());
 
 //Importing routes
-import course from "./routes/courseRoute.js";
+import coursedata from "./routes/coursedataRoute.js";
 import user from "./routes/userRoutes.js";
 import Submissions from "./routes/submissionRoute.js";
 import Assignment from "./routes/AssignmentRoute.js";
 // import Progress from "./routes/ProgressRoute.js";
 import Progress from "./routes/ProgressRoute.js";
-import coursedata from "./routes/coursedataRoute.js"
+import course from "./routes/courseRoute.js"
 
-app.use("/api/v1", course);
+app.use("/api/v1", coursedata);
 app.use("/api/v1", user);
 app.use("/api/v1", Submissions);
 app.use("/api/v1", Assignment);
 app.use("/api/v1", Progress);
-app.use("/api/v1", coursedata);
+app.use("/api/v1", course);
 
 app.get("/", (req, res) => {
   res.send("Welcome to EduBrain. The server is live.");
