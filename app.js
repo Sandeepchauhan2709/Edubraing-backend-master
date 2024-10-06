@@ -32,9 +32,9 @@ import coursedata from "./routes/coursedataRoute.js";
 import user from "./routes/userRoutes.js";
 import Submissions from "./routes/submissionRoute.js";
 import Assignment from "./routes/AssignmentRoute.js";
-// import Progress from "./routes/ProgressRoute.js";
 import Progress from "./routes/ProgressRoute.js";
-import course from "./routes/courseRoute.js"
+import course from "./routes/courseRoute.js";
+import enrollment from "./routes/EnrollmentRoutes.js";
 
 app.use("/api/v1", coursedata);
 app.use("/api/v1", user);
@@ -42,6 +42,7 @@ app.use("/api/v1", Submissions);
 app.use("/api/v1", Assignment);
 app.use("/api/v1", Progress);
 app.use("/api/v1", course);
+app.use("/api/v1", enrollment);
 
 app.get("/", (req, res) => {
   res.send("Welcome to EduBrain. The server is live.");

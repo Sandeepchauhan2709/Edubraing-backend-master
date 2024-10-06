@@ -21,6 +21,7 @@ export const getAllProgress = async (req, res) => {
       lastLectureAccessed : progress.lastLecture,
       totalLectures,
       completedLectures,
+      completedLectureArray: progress.completedLectures,
       overallProgress: parseFloat(((completedLectures / totalLectures) * 100).toFixed(1))
     });
   } catch (error) {
