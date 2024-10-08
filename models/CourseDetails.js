@@ -12,6 +12,7 @@ const courseDetailsSchema = new mongoose.Schema({
     required: [true, "Please enter course title"],
     minLength: [4, "Title must be at least 4 characters"],
     maxLength: [80, "Title can't exceed 80 characters"]
+    
   },
   description: {
     type: String,
@@ -117,80 +118,3 @@ export const courseDetails = mongoose.model('CourseDetails', courseDetailsSchema
 
 
 
-
-
-// ----------------------------------------------------------------
-// IMPORTANT NOTE:
-
-
-// When you need full course information, you can populate the content and assignments virtual fields.
-
-// Example usage:
-// javascriptCopyconst courseDetails = await CourseDetails.findOne({ courseId: someId })
-//   .populate('content')
-//   .populate('assignments');
-
-// console.log(courseDetails.content.sections); // Access course sections
-// console.log(courseDetails.assignments); // Access course assignments
-
-
-// import mongoose from "mongoose";
-
-
-
-
-
-
-// for inserting and testing is the below code 
-
-
-// async function createCourseDetails() {
-//   const courseId = "66c8a181a5a819dd5095d91c";
-
-//   const courseDetailsData = {
-//     courseId: courseId,
-//     title: "Power BI",
-//     description: "Comprehensive course on Power BI for data analysis and visualization",
-//     poster: {
-//       public_id: "power_bi_poster",
-//       url: "https://www.excelptp.com/wp-content/uploads/2021/05/power-bi-training-banner-img.jpg"
-//     },
-//     category: "technical",
-//     basePrice: 99.99,
-//     discountedPercent: 20,
-//     views: 0,
-//     total_duration: "10h 30m"
-//   };
-
-//   try {
-//     const courseDetail = new courseDetails(courseDetailsData);
-//     await courseDetail.save();
-//     console.log("CourseDetails created successfully:", courseDetail);
-//   } catch (error) {
-//     console.error("Error creating CourseDetails:", error);
-//   }
-// }
-
-// createCourseDetails();
-
-
-
-
-
-
-// ----------------------------------------------------------------
-// IMPORTANT NOTE:
-
-
-// When you need full course information, you can populate the content and assignments virtual fields.
-
-// Example usage:
-// javascriptCopyconst courseDetails = await CourseDetails.findOne({ courseId: someId })
-//   .populate('content')
-//   .populate('assignments');
-
-// console.log(courseDetails.content.sections); // Access course sections
-// console.log(courseDetails.assignments); // Access course assignments
-
-
-// import mongoose from "mongoose";
