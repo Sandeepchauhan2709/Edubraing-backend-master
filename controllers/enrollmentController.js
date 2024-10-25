@@ -1,17 +1,18 @@
-// import { enrollUserInCourse } from '../utils/enrollmentService.js';
+import { processEnrollment } from '../utils/enrollmentService.js';
 import { catchAsyncError } from '../middlewares/catchAsyncError.js';
 // import { User } from '../models/User.js';
 import { Enrollment } from '../models/Enrollment.js';
 // import { courseDetails } from '../models/courseDetails.js';
 import { Course } from '../models/Course.js';
 import { Progress } from '../models/Progress.js';
+import crypto from 'crypto';
 
 
 // export const enrollInCourse = catchAsyncError(async (req, res, next) => {
-//   const { courseId, paymentAmount, paymentMethod } = req.body;
+//   const { courseDetailsId, paymentMethod } = req.body;
 //   const userId = req.user._id;
-
-//   const enrollment = await enrollUserInCourse(userId, courseId, paymentAmount, paymentMethod);
+//   // console.log(userId, paymentMethod, courseDetailsId)
+//   const enrollment = await enrollUserInCourse(userId, courseDetailsId, paymentMethod);
 
 //   res.status(201).json({
 //     success: true,
@@ -19,6 +20,47 @@ import { Progress } from '../models/Progress.js';
 //     enrollment
 //   });
 // });
+
+
+const verifyWebhookSignature = (webhookBody, signature, webhookSecret) => {
+  const hash = crypto
+    .createHmac('sha256', webhookSecret)
+    .update(JSON.stringify(webhookBody))
+    .digest('hex');
+  return hash === signature;
+};
+
+
+export const razorpayWebhook = catchAsyncError(async (req, res, next) => {
+  // Verify webhook signature
+  const signature = req.headers['x-razorpay-signature'];
+  const isValid = verifyWebhookSignature(req.body, signature, process.env.RAZORPAY_WEBHOOK_SECRET);
+  // console.log('sgasdhnsrdfhnxdfhjnxf')
+  if (!isValid) {
+    return res.status(400).json({ success: false, message: 'Invalid webhook signature' });
+  }
+ 
+  const event = req.body;
+  // console.log(req.body)
+  // console.log(event.event)
+  // Handle only payment.captured events
+  if (event.event === 'payment.captured') {
+    const paymentData = event.payload.payment.entity;
+    // console.log(paymentData)
+    // Extract email from payment data
+    const userEmail = paymentData.notes.email;
+    // console.log(userEmail)
+    const courseNameTitle = paymentData.notes.product;
+
+    await processEnrollment(userEmail, courseNameTitle, paymentData);
+  
+  }
+
+  res.status(200).json({ success: true });
+});
+
+
+
 
 
 
@@ -89,3 +131,12 @@ export const getMyEnrollments = catchAsyncError(async (req, res, next) => {
     enrollments: enrollmentDetails
   });
 });
+
+
+
+
+
+
+
+
+

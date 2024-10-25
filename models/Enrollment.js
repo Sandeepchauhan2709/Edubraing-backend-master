@@ -25,6 +25,9 @@ const EnrollmentSchema = new mongoose.Schema({
     enum: ['pending', 'completed', 'failed'],
     default: 'pending'
   },
+  currency :{
+    type: String,
+  },
   paymentAmount: {
     type: Number,
     required: true
