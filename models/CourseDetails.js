@@ -118,3 +118,28 @@ export const courseDetails = mongoose.model('CourseDetails', courseDetailsSchema
 
 
 
+
+// const initializeCourseDetails = async () => {
+  
+//   try {
+//     await courseDetails.create({
+//       courseId: new mongoose.Types.ObjectId("67193765385222a68f96d469"),
+//       title: "Machine Learning",
+//       description: "Comprehensive course covering fundamentals of Machine Learning including supervised, unsupervised, semi-supervised learning, and reinforcement learning. Learn essential ML workflows and practical applications.",
+
+//       poster: {
+//         public_id: "machine_learning_poster",
+//         url: "https://www.fsm.ac.in/blog/wp-content/uploads/2022/08/ml-e1610553826718.jpg"
+//       },
+//       category: "technical",
+//       basePrice: 1299,
+//       discountedPercent: 20,
+//       total_duration: "13h 36m"
+//     });
+//     console.log("CourseDetails initialized successfully.");
+//   } catch (error) {
+//     console.error("Error initializing CourseDetails:", error);
+//   }
+// };
+
+// initializeCourseDetails();
