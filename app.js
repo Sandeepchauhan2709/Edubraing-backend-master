@@ -43,6 +43,7 @@ app.use("/api/v1", Assignment);
 app.use("/api/v1", Progress);
 app.use("/api/v1", course);
 app.use("/api/v1", enrollment);
+// app.use('/api/v1', courseRoutes);
 
 app.get("/", (req, res) => {
   res.send("Welcome to EduBrain. The server is live.");

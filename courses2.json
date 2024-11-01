@@ -1,1426 +1,861 @@
 [
+  {
+  "course_name": "Data Analytics",
+  "slug": "datascience",
+  "category": "technical",
+  "sections": [
     {
-        "_id": {
-          "$oid": "668d2d1093cbd9d40f8e088d"
+      "section_no": 1,
+      "section_name": "Introduction to Excel",
+      "section_lectures": [
+        {
+          "lecture_no": 1,
+          "lecture_name": "Introduction to Excel",
+          "lecture_cloud_link": { 
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Introduction to Excel"
+          },
+          "lecture_file_path": "Introduction to Excel"
         },
-        "course_name": "Power BI",
-        "slug": "powerbi",
-        "category": "technical",
-        "sections": [
-          {
-            "section_no": 1,
-            "section_name": "Understanding Power BI",
-            "section_lectures": [
-              {
-                "lecture_no": 1,
-                "lecture_name": "Defining Power BI",
-                "lecture_cloud_link": {
-                  "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/What+Power+Bi+exactly+does%3F.mp4",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI",
-                  "file_name": "Defining Power BI"
-                },
-                "lecture_file_path": "Defining Power BI"
-              },
-              {
-                "lecture_no": 2,
-                "lecture_name": "Power BI Vs Other Visualization Tools",
-                "lecture_cloud_link": {
-                  "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Power+Bi+vs+Other+Visualisation+Tools.mp4",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI",
-                  "file_name": "Power BI Vs Other Visualization Tools"
-                },
-                "lecture_file_path": "Power BI Vs Other Visualization Tools"
-              },
-              {
-                "lecture_no": 3,
-                "lecture_name": "Installing Power BI Desktop",
-                "lecture_cloud_link": {
-                  "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Installation+of+Power+Bi++Desktop.mp4",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI",
-                  "file_name": "Installing Power BI Desktop"
-                },
-                "lecture_file_path": "Installing Power BI Desktop"
-              },
-              {
-                "lecture_no": 4,
-                "lecture_name": "Exploring Power BI Services",
-                "lecture_cloud_link": {
-                  "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Power+Bi+Service.mp4",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI",
-                  "file_name": "Exploring Power BI Services"
-                },
-                "lecture_file_path": "Exploring Power BI Services"
-              }
-            ]
+        {
+          "lecture_no": 2,
+          "lecture_name": "Exploring Excel",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Exploring Excel"
           },
-          {
-            "section_no": 2,
-            "section_name": "Getting Started with Power BI",
-            "section_lectures": [
-              {
-                "lecture_no": 5,
-                "lecture_name": "Introduction to Power BI",
-                "lecture_cloud_link": {
-                  "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Introduction+to+Power+BI.mp4",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI",
-                  "file_name": "Introduction to Power BI"
-                },
-                "lecture_file_path": "Introduction to Power BI"
-              },
-              {
-                "lecture_no": 6,
-                "lecture_name": "Importing and Connecting Data",
-                "lecture_cloud_link": {
-                  "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Importing+and+Connecting+Data.mp4",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI",
-                  "file_name": "Importing and Connecting Data"
-                },
-                "lecture_file_path": "Importing and Connecting Data"
-              },
-              {
-                "lecture_no": 7,
-                "lecture_name": "Data Transformation Techniques",
-                "lecture_cloud_link": {
-                  "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Ways+of+Data+Transformation.mp4 ",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI Mastery",
-                  "file_name": "Data Transformation Techniques"
-                },
-                "lecture_file_path": "Data Transformation Techniques"
-              },
-              {
-                "lecture_no": 8,
-                "lecture_name": "Data Modelling Fundamentals",
-                "lecture_cloud_link": {
-                  "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Data+Modelling.mp4",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI",
-                  "file_name": "Data Modelling Fundamentals"
-                },
-                "lecture_file_path": "Data Modelling Fundamentals"
-              }
-            ]
+          "lecture_file_path": "Exploring Excel"
+        },
+        {
+          "lecture_no": 3,
+          "lecture_name": "Formulas used in Excel",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Formulas used in Excel"
           },
-          {
-            "section_no": 3,
-            "section_name": "Visualizing and Analyzing Data",
-            "section_lectures": [
-              {
-                "lecture_no": 9,
-                "lecture_name": "Navigating the Power BI Interface",
-                "lecture_cloud_link": {
-                  "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Introduction+to+Visualizing+and+Analyzing+Data.mp4",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI",
-                  "file_name": "Navigating the Power BI Interface"
-                },
-                "lecture_file_path": "Navigating the Power BI Interface"
-              },
-              {
-                "lecture_no": 10,
-                "lecture_name": "Type of Visuals and their Appropriate Use",
-                "lecture_cloud_link": {
-                  "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Types+of+Visuals+and+their+Appropriate+Use.mp4",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI",
-                  "file_name": "Type of Visuals and their Appropriate Use"
-                },
-                "lecture_file_path": "Type of Visuals and their Appropriate Use"
-              },
-              {
-                "lecture_no": 11,
-                "lecture_name": "Visual Data Filtering and Formatting",
-                "lecture_cloud_link": {
-                  "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Visual+2+Filters.mp4",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI",
-                  "file_name": "Visual Data Filtering and Formatting"
-                },
-                "lecture_file_path": "Visual Data Filtering and Formatting"
-              },
-              {
-                "lecture_no": 12,
-                "lecture_name": "Building Reports In Power BI",
-                "lecture_cloud_link": {
-                  "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Building+Reports+in+Power+BI.mp4",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI",
-                  "file_name": "Building Reports In Power BI"
-                },
-                "lecture_file_path": "Building Reports In Power BI"
-              },
-              {
-                "lecture_no": 13,
-                "lecture_name": "AI Visuals",
-                "lecture_cloud_link": {
-                  "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/AI++Visuals.mp4",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI",
-                  "file_name": "AI Visuals"
-                },
-                "lecture_file_path": "AI Visuals"
-              },
-              {
-                "lecture_no": 14,
-                "lecture_name": "Bookmarks and Performance Analyser",
-                "lecture_cloud_link": {
-                  "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Introduction+to+Visualizing+and+Analyzing+Data.mp4",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI",
-                  "file_name": "Bookmarks and Performance Analyser"
-                },
-                "lecture_file_path": "Bookmarks and Performance Analyser"
-              }
-            ]
+          "lecture_file_path": "Formulas used in Excel"
+        },
+        {
+          "lecture_no": 4,
+          "lecture_name": "Why Visualization?",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Why Visualization?"
           },
-          {
-            "section_no": 4,
-            "section_name": "Advanced Topics",
-            "section_lectures": [
-              {
-                "lecture_no": 15,
-                "lecture_name": "Exploring DAX (Data Analysis Expressions)",
-                "lecture_cloud_link": {
-                  "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Advanced+Topics+in+Power+Bi%3A+DAX.mp4",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI",
-                  "file_name": "Exploring DAX (Data Analysis Expressions)"
-                },
-                "lecture_file_path": "Exploring DAX (Data Analysis Expressions)"
-              },
-              {
-                "lecture_no": 16,
-                "lecture_name": "Creating Measures Using DAX",
-                "lecture_cloud_link": {
-                  "domain_url": "https://url.com",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI Mastery",
-                  "file_name": "Creating Measures Using DAX"
-                },
-                "lecture_file_path": "Creating Measures Using DAX"
-              },
-              {
-                "lecture_no": 17,
-                "lecture_name": "Creating Calculated Columns Using DAX",
-                "lecture_cloud_link": {
-                  "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Advanced+Topic+2%3A+Calculated+Coulmns.mp4",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI Mastery",
-                  "file_name": "Creating Calculated Columns Using DAX"
-                },
-                "lecture_file_path": "Creating Calculated Columns Using DAX"
-              },
-              {
-                "lecture_no": 18,
-                "lecture_name": "Building Reports In Power BI",
-                "lecture_cloud_link": {
-                  "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Building+Reports+in+Power+BI.mp4",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI Mastery",
-                  "file_name": "Building Reports In Power BI"
-                },
-                "lecture_file_path": "Building Reports In Power BI"
-              },
-              {
-                "lecture_no": 19,
-                "lecture_name": "Building Dashboard In Power BI",
-                "lecture_cloud_link": {
-                  "domain_url": "https://url.com",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI Mastery",
-                  "file_name": "Building Dashboard In Power BI"
-                },
-                "lecture_file_path": "Building Dashboard In Power BI"
-              }  
-            ]
+          "lecture_file_path": "Why Visualization?"
+        },
+        {
+          "lecture_no": 5,
+          "lecture_name": "Shortcuts in Excel",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Shortcuts in Excel"
           },
-          {
-            "section_no": 5,
-            "section_name": "Miscellaneous Topics",
-            "section_lectures": [
-              {
-                "lecture_no": 20,
-                "lecture_name": "Best Practices For Power BI Usage",
-                "lecture_cloud_link": {
-                  "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Best+Practices+for+PowerBI+Usage.mp4",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI",
-                  "file_name": "Best Practices For Power BI Usage"
-                },
-                "lecture_file_path": "Best Practices For Power BI Usage"
-              },
-              {
-                "lecture_no": 21,
-                "lecture_name": "Integrating AI Visuals",
-                "lecture_cloud_link": {
-                  "domain_url": "https://url.com",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI Mastery",
-                  "file_name": "Integrating AI Visuals"
-                },
-                "lecture_file_path": "Integrating AI Visuals"
-              },
-              {
-                "lecture_no": 22,
-                "lecture_name": "Collaborative Report Sharing Within Workspaces",
-                "lecture_cloud_link": {
-                  "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/Advanced+Topic+3%3A+Sharing+Reports+withWorkplaces.mp4",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI Mastery",
-                  "file_name": "Collaborative Report Sharing Within Workspaces"
-                },
-                "lecture_file_path": "Collaborative Report Sharing Within Workspaces"
-              },
-              {
-                "lecture_no": 23,
-                "lecture_name": "Row Level Security (RLS) Strategies",
-                "lecture_cloud_link": {
-                  "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/What+is+Row+Level+Security%3F.mp4",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI Mastery",
-                  "file_name": "Row Level Security (RLS) Strategies"
-                },
-                "lecture_file_path": "Row Level Security (RLS) Strategies"
-              },
-              {
-                "lecture_no": 24,
-                "lecture_name": "Data Refresh Strategies",
-                "lecture_cloud_link": {
-                  "domain_url": "https://ap-south-1.console.aws.amazon.com/s3/object/edubraining?region=ap-south-1&bucketType=general&prefix=Courses/Power+BI/What+is+Data+Refresh+and+its+strategies%3F.mp4",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI Mastery",
-                  "file_name": "Data Refresh Strategies"
-                },
-                "lecture_file_path": "Data Refresh Strategies"
-              }  
-            ]
-          },
-          {
-            "section_no": 6,
-            "section_name": "Interview Preparation",
-            "section_lectures": [
-              {
-                "lecture_no": 25,
-                "lecture_name": "Commonly Asked Interview Questions",
-                "lecture_cloud_link": {
-                  "domain_url": "https://url.com",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI",
-                  "file_name": "Commonly Asked Interview Questions"
-                },
-                "lecture_file_path": "Commonly Asked Interview Questions"
-              }
-            ]
-          },
-          {
-            "section_no": 7,
-            "section_name": "Projects",
-            "section_lectures": [
-              {
-                "lecture_no": 26,
-                "lecture_name": "Project 1: Starbucks",
-                "lecture_cloud_link": {
-                  "domain_url": "https://url.com",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI",
-                  "file_name": "Project 1: Starbucks"
-                },
-                "lecture_file_path": "Project 1: Starbucks"
-              },
-              {
-                "lecture_no": 27,
-                "lecture_name": "Project 2: Jobs and Salaries in Data Science",
-                "lecture_cloud_link": {
-                  "domain_url": "https://url.com",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI Mastery",
-                  "file_name": "Project 2: Jobs and Salaries in Data Science"
-                },
-                "lecture_file_path": "Project 2: Jobs and Salaries in Data Science"
-              },
-              {
-                "lecture_no": 28,
-                "lecture_name": "Project 3: Food and Beverages",
-                "lecture_cloud_link": {
-                  "domain_url": "https://url.com",
-                  "bucket": "Courses",
-                  "folder_name": "Power BI Mastery",
-                  "file_name": "Project 3: Food and Beverages"
-                },
-                "lecture_file_path": "Project 3: Food and Beverages"
-              }
-            ]
-          }
-        ]
-      },
-      
+          "lecture_file_path": "Shortcuts in Excel"
+        }
+      ]
+    },
     {
-    "_id": {
-      "$oid": "668d2d1093cbd9d40f8e088d"
+      "section_no": 2,
+      "section_name": "Excel Data Management",
+      "section_lectures": [
+        {
+          "lecture_no": 6,
+          "lecture_name": "Understanding Sorting",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Understanding Sorting"
+          },
+          "lecture_file_path": "Understanding Sorting"
+        },
+        {
+          "lecture_no": 7,
+          "lecture_name": "Understanding Filtering",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Understanding Filtering"
+          },
+          "lecture_file_path": "Understanding Filtering"
+        },
+        {
+          "lecture_no": 8,
+          "lecture_name": "Understanding Formatting",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics Mastery",
+            "file_name": "Understanding Formatting"
+          },
+          "lecture_file_path": "Understanding Formatting"
+        } 
+      ]
     },
-    "course_name": "Data Analytics",
-    "slug": "dataanalytics",
-    "category": "technical",
-    "sections": [
-      {
-        "section_no": 1,
-        "section_name": "Introduction",
-        "section_lectures": [
-          {
-            "lecture_no": 1,
-            "lecture_name": "What do you learn in Data Analytics?",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Data Analytics",
-              "file_name": "What do you learn in Data Analytics?"
-            },
-            "lecture_file_path": "What do you learn in Data Analytics?"
-          }
-        ]
-      },
-      {
-        "section_no": 2,
-        "section_name": "Module 1: Excel",
-        "section_lectures": [
-          {
-            "lecture_no": 2,
-            "lecture_name": "Data Cleaning",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Data Analytics",
-              "file_name": "Data Cleaning"
-            },
-            "lecture_file_path": "Data Cleaning"
+    {
+      "section_no": 3,
+      "section_name": "Advanced Excel Features",
+      "section_lectures": [
+        {
+          "lecture_no": 9,
+          "lecture_name": "Drop Down List (Part-1)",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Drop Down List (Part-1)"
           },
-          {
-            "lecture_no": 3,
-            "lecture_name": "Sort and Filter",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Data Analytics",
-              "file_name": "Sort and Filter"
-            },
-            "lecture_file_path": "Sort and Filter"
+          "lecture_file_path": "Drop Down List (Part-1)"
+        },
+        {
+          "lecture_no": 10,
+          "lecture_name": "Drop Down List (Part-2)",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Drop Down List (Part-2)"
           },
-          {
-            "lecture_no": 4,
-            "lecture_name": "Shortcut Keys",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Data Analytics",
-              "file_name": "Shortcut Keys"
-            },
-            "lecture_file_path": "Shortcut Keys"
+          "lecture_file_path": "Drop Down List (Part-2)"
+        },
+        {
+          "lecture_no": 11,
+          "lecture_name": "Split in Excel",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Split in Excel"
           },
-          {
-            "lecture_no": 5,
-            "lecture_name": "Conditional Formatting",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Data Analytics",
-              "file_name": "Conditional Formatting"
-            },
-            "lecture_file_path": "Conditional Formatting"
-          },
-          {
-            "lecture_no": 6,
-            "lecture_name": "Data Validation",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Data Analytics",
-              "file_name": "Data Validation"
-            },
-            "lecture_file_path": "Data Validation"
-          },
-          {
-            "lecture_no": 7,
-            "lecture_name": "Pivot Tables",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Data Analytics",
-              "file_name": "Pivot Tables"
-            },
-            "lecture_file_path": "Pivot Tables"
-          },
-          {
-            "lecture_no": 8,
-            "lecture_name": "Creating a Dashboard using Excel",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Data Analytics",
-              "file_name": "Creating a Dashboard using Excel"
-            },
-            "lecture_file_path": "Creating a Dashboard using Excel"
-          }
-        ]
-      },
-      {
-        "section_no": 3,
-        "section_name": "Module 2: Python",
-        "section_lectures": [
-          {
-            "lecture_no": 9,
-            "lecture_name": "Basics to Advance Python",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Data Analytics",
-              "file_name": "Basics to Advance Python"
-            },
-            "lecture_file_path": "Basics to Advance Python"
-          },
-          {
-            "lecture_no": 10,
-            "lecture_name": "Python Overview",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Data Analytics",
-              "file_name": "Python Overview"
-            },
-            "lecture_file_path": "Python Overview"
-          },
-          {
-            "lecture_no": 11,
-            "lecture_name": "Loading the Inbuilt Data and Libraries Involved for Visualization",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Data Analytics",
-              "file_name": "Loading the Inbuilt Data and Libraries Involved for Visualization"
-            },
-            "lecture_file_path": "Loading the Inbuilt Data and Libraries Involved for Visualization"
-          },
-          {
-            "lecture_no": 12,
-            "lecture_name": "Data Manipulation (Checking for Null Values and Data Types, etc.)",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Data Analytics",
-              "file_name": "Data Manipulation (Checking for Null Values and Data Types, etc.)"
-            },
-            "lecture_file_path": "Data Manipulation (Checking for Null Values and Data Types, etc.)"
-          },
-          {
-            "lecture_no": 13,
-            "lecture_name": "Data Cleaning (Filling in the Null Values)",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Data Analytics",
-              "file_name": "Data Cleaning (Filling in the Null Values)"
-            },
-            "lecture_file_path": "Data Cleaning (Filling in the Null Values)"
-          },
-          {
-            "lecture_no": 14,
-            "lecture_name": "Learning the Visualization Libraries for Plotting",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Data Analytics",
-              "file_name": "Learning the Visualization Libraries for Plotting"
-            },
-            "lecture_file_path": "Learning the Visualization Libraries for Plotting"
-          },
-          {
-            "lecture_no": 15,
-            "lecture_name": "Interactive Plots",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Data Analytics",
-              "file_name": "Interactive Plots"
-            },
-            "lecture_file_path": "Interactive Plots"
-          },
-          {
-            "lecture_no": 16,
-            "lecture_name": "Interpretation of the Plots",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Cousrses",
-              "folder_name": "Data Analytics",
-              "file_name": "Interpretation of the Plots"
-            },
-            "lecture_file_path": "Interpretation of the Plots"
-          },
-          {
-            "lecture_no": 17,
-            "lecture_name": "All this will be done on IRIS and Tips Dataset that are built in the Python",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Cousrses",
-              "folder_name": "Data Analytics",
-              "file_name": "All this will be done on IRIS and Tips Dataset that are built in the Python"
-            },
-            "lecture_file_path": "All this will be done on IRIS and Tips Dataset that are built in the Python"
-          }
-        ]
-      },
-      {
-        "section_no": 4,
-        "section_name": "Projects",
-        "section_lectures": [
-          {
-            "lecture_no": 18,
-            "lecture_name": "Project 1: EDA on Zomato Dataset",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Data Analytics",
-              "file_name": "Project 1: EDA on Zomato Dataset"
-            },
-            "lecture_file_path": "Project 1: EDA on Zomato Dataset"
-          },
-          {
-            "lecture_no": 19,
-            "lecture_name": "Project 2: Creating a Dashboard in Python/EDA on Titanic Dataset",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Data Analytics",
-              "file_name": "Project 2: Creating a Dashboard in Python/EDA on Titanic Dataset"
-            },
-            "lecture_file_path": "Project 2: Creating a Dashboard in Python/EDA on Titanic Dataset"
-          }
-        ]
-      },
-      {
-        "section_no": 5,
-        "section_name": "Module 3: Tableau",
-        "section_lectures": [
-          {
-            "lecture_no": 20,
-            "lecture_name": "Creating interactive Dashboard",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Data Analytics",
-              "file_name": "Creating interactive Dashboard"
-            },
-            "lecture_file_path": "Creating interactive Dashboard"
-          },
-          {
-            "lecture_no": 21,
-            "lecture_name": "Introduction to Tableau",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Data Analytics",
-              "file_name": "Introduction to Tableau"
-            },
-            "lecture_file_path": "Introduction to Tableau"
-          },
-          {
-            "lecture_no": 22,
-            "lecture_name": "Getting Familiar within Tableau",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Data Analytics",
-              "file_name": "Getting Familiar within Tableau"
-            },
-            "lecture_file_path": "Getting Familiar within Tableau"
-          },
-          {
-            "lecture_no": 23,
-            "lecture_name": "How to Load the Dataset in Tableau",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Data Analytics",
-              "file_name": "How to Load the Dataset in Tableau"
-            },
-            "lecture_file_path": "How to Load the Dataset in Tableau"
-          },
-          {
-            "lecture_no": 24,
-            "lecture_name": "Pre-Processing While Creating a Chart (Creating Calculated Fields, Removing Null Values, etc.)",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Data Analytics",
-              "file_name": "Pre-Processing While Creating a Chart (Creating Calculated Fields, Removing Null Values, etc.)"
-            },
-            "lecture_file_path": "Pre-Processing While Creating a Chart (Creating Calculated Fields, Removing Null Values, etc.)"
-          },
-          {
-            "lecture_no": 25,
-            "lecture_name": "Creating Charts (Scatter Plot, Bullet Chart, Pie Chart, etc.)",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Data Analytics",
-              "file_name": "Creating Charts (Scatter Plot, Bullet Chart, Pie Chart, etc.)"
-            },
-            "lecture_file_path": "Creating Charts (Scatter Plot, Bullet Chart, Pie Chart, etc.)"
-          },
-          {
-            "lecture_no": 26,
-            "lecture_name": "Creating a Story Out of It",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Data Analytics",
-              "file_name": "Creating a Story Out of It"
-            },
-            "lecture_file_path": "Creating a Story Out of It"
-          },
-          {
-            "lecture_no": 27,
-            "lecture_name": "Creating a Dashboard Through Tableau",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Data Analytics",
-              "file_name": "Creating a Dashboard Through Tableau"
-            },
-            "lecture_file_path": "Creating a Dashboard Through Tableau"
-          }
-        
-        ]
-      },
-      {
-        "section_no": 6,
-        "section_name": "Interview Questions",
-        "section_lectures": [
-          {
-            "lecture_no": 28,
-            "lecture_name": "Commonly Asked Interview Questions",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Data Analytics",
-              "file_name": "Commonly Asked Interview Questions"
-            },
-            "lecture_file_path": "Commonly Asked Interview Questions"
-          }
-        ]
-      }
-    ]
-  },
-  
-{
-    "_id": {
-      "$oid": "668d2d1093cbd9d40f8e088d"
+          "lecture_file_path": "Split in Excel"
+        }
+      ]
     },
-    "course_name": "Python",
-    "slug": "python",
-    "category": "technical",
-    "sections": [
-      {
-        "section_no": 1,
-        "section_name": "Python Environment Setup and Essentials",
-        "section_lectures": [
-          {
-            "lecture_no": 1,
-            "lecture_name": "Introduction to Python Language",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Introduction to Python Language"
-            },
-            "lecture_file_path": "Introduction to Python Language"
+    {
+      "section_no": 4,
+      "section_name": "Excel Visualization",
+      "section_lectures": [
+        {
+          "lecture_no": 12,
+          "lecture_name": "Understanding Charts",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Understanding Charts"
           },
-          {
-            "lecture_no": 2,
-            "lecture_name": "Features and the Advantages of Python Over Other Programming Languages",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Features and the Advantages of Python Over Other Programming Languages"
-            },
-            "lecture_file_path": "Features and the Advantages of Python Over Other Programming Languages"
+          "lecture_file_path": "Understanding Charts"
+        },
+        {
+          "lecture_no": 13,
+          "lecture_name": "Understanding Charts (Part-2)",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Understanding Charts (Part-2)"
           },
-          {
-            "lecture_no": 3,
-            "lecture_name": "Python Installation – Windows, Mac, and Linux Distribution for Anaconda Python",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Python Installation – Windows, Mac, and Linux Distribution for Anaconda Python"
-            },
-            "lecture_file_path": "Python Installation – Windows, Mac, and Linux Distribution for Anaconda Python"
+          "lecture_file_path": "Understanding Charts (Part-2)"
+        },
+        {
+          "lecture_no": 14,
+          "lecture_name": "Understanding Charts (Practically)",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Understanding Charts (Practically)"
           },
-          {
-            "lecture_no": 4,
-            "lecture_name": "Deploying Python IDE",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Deploying Python IDE"
-            },
-            "lecture_file_path": "Deploying Python IDE"
+          "lecture_file_path": "Understanding Charts (Practically)"
+        } 
+      ]
+    },
+    {
+      "section_no": 5,
+      "section_name": "Practical Excel Techniques",
+      "section_lectures": [
+        {
+          "lecture_no": 15,
+          "lecture_name": "Understanding Sorting (Practically)",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Understanding Sorting (Practically)"
           },
-          {
-            "lecture_no": 5,
-            "lecture_name": "Basic Python Commands, Data Types, Variables, Keywords, and More",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Basic Python Commands, Data Types, Variables, Keywords, and More"
-            },
-            "lecture_file_path": "Basic Python Commands, Data Types, Variables, Keywords, and More"
-          }
-        ],
-        "handsOnExercise": "Installing Python Anaconda for Windows, Linux, and Mac."
+          "lecture_file_path": "Understanding Sorting (Practically)"
+        },
+        {
+          "lecture_no": 16,
+          "lecture_name": "Understanding Pivot Tables",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Understanding Pivot Tables"
+          },
+          "lecture_file_path": "Understanding Pivot Tables"
+        },
+        {
+          "lecture_no": 17,
+          "lecture_name": "Understanding Pivot Tables (Practically)",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Understanding Pivot Tables (Practically)"
+          },
+          "lecture_file_path": "Understanding Pivot Tables (Practically)"
+        },
+        {
+          "lecture_no": 18,
+          "lecture_name": "Understanding Pivot Charts",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Understanding Pivot Charts"
+          },
+          "lecture_file_path": "Understanding Pivot Charts"
+        } 
+      ]
+    },
+    {
+      "section_no": 6,
+      "section_name": "Excel Formula & Analysis",
+      "section_lectures": [
+        {
+          "lecture_no": 19,
+          "lecture_name": "Formula Analysis",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Formula Analysis"
+          },
+          "lecture_file_path": "Formula Analysis"
+        }
+      ]
+    },
+    {
+      "section_no": 7,
+      "section_name": "Excel Project & Quiz",
+      "section_lectures": [
+        {
+          "lecture_no": 20,
+          "lecture_name": "Project 1: Understanding Excel Practically",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Project 1: Understanding Excel Practically"
+          },
+          "lecture_file_path": "Project 1: Understanding Excel Practically"
+        },  
+        {
+          "lecture_no": 21,
+          "lecture_name": "Project 1: Understanding Excel Practically (Part-2)",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Project 1: Understanding Excel Practically (Part-2)"
+          },
+          "lecture_file_path": "Project 1: Understanding Excel Practically (Part-2)"
+        },  
+        {
+          "lecture_no": 22,
+          "lecture_name": "A Quick Quiz - Based on Excel",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "A Quick Quiz - Based on Excel"
+          },
+          "lecture_file_path": "A Quick Quiz - Based on Excel"
+        }  
+      ]
+    },
+    { 
+      "section_no": 8,
+      "section_name": "Introduction to SQL",
+      "section_lectures": [
+        {
+          "lecture_no": 23,
+          "lecture_name": "Introduction to Structured Query Language (SQL)",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Introduction to Structured Query Language (SQL)"
+          },
+          "lecture_file_path": "Introduction to Structured Query Language (SQL)"
+        },  
+        {
+          "lecture_no": 24,
+          "lecture_name": "SQL - Queries & Types",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "SQL - Queries & Types"
+          },
+          "lecture_file_path": "SQL - Queries & Types"
+        },  
+        {
+          "lecture_no": 25,
+          "lecture_name": "SQL - Queries & Types (Part-2)",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "SQL - Queries & Types (Part-2)"
+          },
+          "lecture_file_path": "SQL - Queries & Types (Part-2)"
+        },  
+        {
+          "lecture_no": 26,
+          "lecture_name": "SQL Commands",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "SQL Commands"
+          },
+          "lecture_file_path": "SQL Commands"
+        },  
+        {
+          "lecture_no": 27,
+          "lecture_name": "SQL: Data Types",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "SQL: Data Types"
+          },
+          "lecture_file_path": "SQL: Data Types"
+        } 
+      ]
+    },
+    {
+      "section_no": 9,
+      "section_name": "SQL Demonstration & Functions",
+      "section_lectures": [
+        {
+          "lecture_no": 28,
+          "lecture_name": "SQL Demonstration",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "SQL Demonstration"
+          },
+          "lecture_file_path": "SQL Demonstration"
+        }, 
+        {
+          "lecture_no": 29,
+          "lecture_name": "SQL Demonstration (Part-2)",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "SQL Demonstration (Part-2)"
+          },
+          "lecture_file_path": "SQL Demonstration (Part-2)"
+        }, 
+        {
+          "lecture_no": 30,
+          "lecture_name": "SQL Demonstration (Part-3)",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "SQL Demonstration (Part-3)"
+          },
+          "lecture_file_path": "SQL Demonstration (Part-3)"
+        }, 
+        {
+          "lecture_no": 31,
+          "lecture_name": "Understanding Aggregate Functions",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Understanding Aggregate Functions"
+          },
+          "lecture_file_path": "Understanding Aggregate Functions"
+        }, 
+        {
+          "lecture_no": 32,
+          "lecture_name": "Alias: Orderby, Groupby",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Alias: Orderby, Groupby"
+          },
+          "lecture_file_path": "Alias: Orderby, Groupby"
+        }, 
+        {
+          "lecture_no": 33,
+          "lecture_name": "Understanding Subquery",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Understanding Subquery"
+          },
+          "lecture_file_path": "Understanding Subquery"
+        }, 
+        {
+          "lecture_no": 34,
+          "lecture_name": "Understanding Joins",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Understanding Joins"
+          },
+          "lecture_file_path": "Understanding Joins"
+        }
+      ]
+    },
+    {
+      "section_no": 10,
+      "section_name": "SQL Advanced Demonstrations",
+      "section_lectures": [
+        {
+          "lecture_no": 35,
+          "lecture_name": "SQL Demonstration (Part-4)",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "SQL Demonstration (Part-4)"
+          },
+          "lecture_file_path": "SQL Demonstration (Part-4)"
+        },
+        {
+          "lecture_no": 36,
+          "lecture_name": "SQL Demonstration (Part-5)",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "SQL Demonstration (Part-5)"
+          },
+          "lecture_file_path": "SQL Demonstration (Part-5)"
+        } 
+       
+      ]
+    },
+    {
+      "section_no": 11,
+      "section_name": "SQL Summary & Interview Questions",
+      "section_lectures": [
+        {
+          "lecture_no": 37,
+          "lecture_name": "Summary (SQL)",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Summary (SQL)"
+          },
+          "lecture_file_path": "Summary (SQL)"
+        }, 
+        {
+          "lecture_no": 38,
+          "lecture_name": "Interview Questions based on SQL",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Interview Questions based on SQL"
+          },
+          "lecture_file_path": "Interview Questions based on SQL"
+        } ,
+        {
+          "lecture_no": 39,
+          "lecture_name": "Interview Questions based on SQL (Part-2)",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Interview Questions based on SQL (Part-2)"
+          },
+          "lecture_file_path": "Interview Questions based on SQL (Part-2)"
+        } 
+       
+      ]
+    },
+    {
+      "section_no": 12,
+      "section_name": "Introduction to Python",
+      "section_lectures": [
+        {
+          "lecture_no": 40,
+          "lecture_name": "Introduction to Python",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Introduction to Python"
+          },
+          "lecture_file_path": "Introduction to Python"
+        }, 
+        {
+          "lecture_no": 41,
+          "lecture_name": "Understanding Python Libraries",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Understanding Python Libraries"
+          },
+          "lecture_file_path": "Understanding Python Libraries"
+        },
+        {
+          "lecture_no": 42,
+          "lecture_name": "Introduction to Pandas",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Introduction to Pandas"
+          },
+          "lecture_file_path": "Introduction to Pandas"
+        },
+        {
+          "lecture_no": 43,
+          "lecture_name": "Overview of Python",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Overview of Python"
+          },
+          "lecture_file_path": "Overview of Python"
+        }
+      ]
+    },
+    {
+      "section_no": 13,
+      "section_name": "Data Pre-processing & Analysis in Python",
+      "section_lectures": [
+        {
+          "lecture_no": 44,
+          "lecture_name": "Understanding Data Pre-processing",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Understanding Data Pre-processing"
+          },
+          "lecture_file_path": "Understanding Data Pre-processing"
+        }, 
+        {
+          "lecture_no": 45,
+          "lecture_name": "Understanding Data Pre-processing (Part-2)",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Understanding Data Pre-processing (Part-2)"
+          },
+          "lecture_file_path": "Understanding Data Pre-processing (Part-2)"
+        },
+        {
+          "lecture_no": 46,
+          "lecture_name": "Understanding Exploratory Data Analysis (EDA)",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Understanding Exploratory Data Analysis (EDA)"
+          },
+          "lecture_file_path": "Understanding Exploratory Data Analysis (EDA)"
+        },
+        {
+          "lecture_no": 47,
+          "lecture_name": "Understanding Exploratory Data Analysis (EDA) (Part-2)",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Understanding Exploratory Data Analysis (EDA) (Part-2)"
+          },
+          "lecture_file_path": "Understanding Exploratory Data Analysis (EDA) (Part-2)"
+        }
+      ]
+    },
+    {
+      "section_no": 14,
+      "section_name": "Python Tips, Projects & Interview Questions",
+      "section_lectures": [
+        {
+          "lecture_no": 48,
+          "lecture_name": "Tips Used in Python",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Tips Used in Python"
+          },
+          "lecture_file_path": "Tips Used in Python"
+        }, 
+        {
+          "lecture_no": 49,
+          "lecture_name": "Project based on Python: Zomato",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Project based on Python: Zomato"
+          },
+          "lecture_file_path": "Project based on Python: Zomato"
+        }, 
+        {
+          "lecture_no": 50,
+          "lecture_name": "One more Project based on Python",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "One more Project based on Python"
+          },
+          "lecture_file_path": "One more Project based on Python"
+        }, 
+        {
+          "lecture_no": 51,
+          "lecture_name": "Interview Questions based on Python",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Interview Questions based on Python"
+          },
+          "lecture_file_path": "Interview Questions based on Python"
+        } 
+      ]
+    },
+    {
+      "section_no": 15,
+      "section_name": "Introduction to Tableau",
+      "section_lectures": [
+        {
+          "lecture_no": 52,
+          "lecture_name": "Understanding Tableau",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Understanding Tableau"
+          },
+          "lecture_file_path": "Understanding Tableau"
+        }, 
+        {
+          "lecture_no": 53,
+          "lecture_name": "Tableau Dashboard Flow",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Tableau Dashboard Flow"
+          },
+          "lecture_file_path": "Tableau Dashboard Flow"
+        }, 
+        {
+          "lecture_no": 54,
+          "lecture_name": "Tableau Dashboard Flow (Part-2)",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Tableau Dashboard Flow (Part-2)"
+          },
+          "lecture_file_path": "Tableau Dashboard Flow (Part-2)"
+        }, 
+        {
+          "lecture_no": 55,
+          "lecture_name": "Tableau Dashboard Flow (Part-3)",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Tableau Dashboard Flow (Part-3)"
+          },
+          "lecture_file_path": "Tableau Dashboard Flow (Part-3)"
+        }, 
+        {
+          "lecture_no": 56,
+          "lecture_name": "Tableau Dashboard Flow (Part-4)",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Tableau Dashboard Flow (Part-4)"
+          },
+          "lecture_file_path": "Tableau Dashboard Flow (Part-4)"
+        }
+       
+      ]
+    },
+    {
+      "section_no": 16,
+      "section_name": "Introduction to Tableau",
+      "section_lectures": [
+        {
+          "lecture_no": 57,
+          "lecture_name": "Pre-Attentive Processing",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Pre-Attentive Processing"
+          },
+          "lecture_file_path": "Pre-Attentive Processing"
+        }, 
+        {
+          "lecture_no": 58,
+          "lecture_name": "Pre-Attentive Processing (Part-2)",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Pre-Attentive Processing (Part-2)"
+          },
+          "lecture_file_path": "Pre-Attentive Processing (Part-2)"
+        }, 
+        {
+          "lecture_no": 59,
+          "lecture_name": "Understanding Data",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Understanding Data"
+          },
+          "lecture_file_path": "Understanding Data"
+        }, 
+        {
+          "lecture_no": 60,
+          "lecture_name": "Techniques to Create Dashboard based on Tableau",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Techniques to Create Dashboard based on Tableau"
+          },
+          "lecture_file_path": "Techniques to Create Dashboard based on Tableau"
+        }, 
+        {
+          "lecture_no": 61,
+          "lecture_name": "Techniques to Create Dashboard based on Tableau (Part-2)",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Techniques to Create Dashboard based on Tableau (Part-2)"
+          },
+          "lecture_file_path": "Techniques to Create Dashboard based on Tableau (Part-2)"
+        },
+        {
+          "lecture_no": 62,
+          "lecture_name": "Techniques to Create Dashboard based on Tableau (Part-3)",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Techniques to Create Dashboard based on Tableau (Part-3)"
+          },
+          "lecture_file_path": "Techniques to Create Dashboard based on Tableau (Part-3)"
+        },
+        {
+          "lecture_no": 63,
+          "lecture_name": "Techniques to Create Dashboard based on Tableau (Part-4)",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Techniques to Create Dashboard based on Tableau (Part-4)"
+          },
+          "lecture_file_path": "Techniques to Create Dashboard based on Tableau (Part-4)"
+        },
+        {
+          "lecture_no": 64,
+          "lecture_name": "Understanding Bullet Charts based on Tableau",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Understanding Bullet Charts based on Tableau"
+          },
+          "lecture_file_path": "Understanding Bullet Charts based on Tableau"
+        }
+       
+      ]
+    },
+    {
+      "section_no": 17,
+      "section_name": "Tableau Project & Quiz",
+      "section_lectures": [ 
+        {
+          "lecture_no": 65,
+          "lecture_name": "A Quick Quiz - Based on Tableau",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "A Quick Quiz - Based on Tableau"
+          },
+          "lecture_file_path": "A Quick Quiz - Based on Tableau"
+        }
+       
+      ]
+    },
+    {
+      "section_no": 18,
+      "section_name": "Conclusion",
+      "section_lectures": [ 
+        {
+          "lecture_no": 66,
+          "lecture_name": "Conclusion",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Conclusion"
+          },
+          "lecture_file_path": "Conclusion"
+        }, 
+        {
+          "lecture_no": 67,
+          "lecture_name": "Excel Analysis",
+          "lecture_cloud_link": {
+            "domain_url": "https://d302zovup67ade.cloudfront.net/",
+            "bucket": "Courses",
+            "folder_name": "Data Analytics",
+            "file_name": "Excel Analysis"
+          },
+          "lecture_file_path": "Excel Analysis"
+        }
+       
+      ]
+    }
+  ]
+}
 
-      },
-
-      {
-        "section_no": 2,
-        "section_name": "Python Language Basic Constructs",
-        "section_lectures": [
-          {
-            "lecture_no": 6,
-            "lecture_name": "Built-in Data Types in Python",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Built-in Data Types in Python"
-            },
-            "lecture_file_path": "Built-in Data Types in Python"
-          },
-          {
-            "lecture_no": 7,
-            "lecture_name": "Learn Classes, Modules, Str(String), Ellipsis Object, Null Object, Ellipsis, Debug",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Learn Classes, Modules, Str(String), Ellipsis Object, Null Object, Ellipsis, Debug"
-            },
-            "lecture_file_path": "Learn Classes, Modules, Str(String), Ellipsis Object, Null Object, Ellipsis, Debug"
-          },
-          {
-            "lecture_no": 8,
-            "lecture_name": "Basic Operators, Comparison, Arithmetic, Slicing and Slice Operator, Logical, Bitwise",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Basic Operators, Comparison, Arithmetic, Slicing and Slice Operator, Logical, Bitwise"
-            },
-            "lecture_file_path": "Basic Operators, Comparison, Arithmetic, Slicing and Slice Operator, Logical, Bitwise"
-          },
-          {
-            "lecture_no": 9,
-            "lecture_name": "Loop and Control Statements: While, For, If, Break, Else, Continue",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Loop and Control Statements: While, For, If, Break, Else, Continue"
-            },
-            "lecture_file_path": "Loop and Control Statements: While, For, If, Break, Else, Continue"
-          }
-        ],
-        "handsOnExercise": [
-              "Write your first Python program",
-              "Write a Python Function (with and without parameters)",
-              "Use Lambda expression",
-              "Write a class",
-              "Create a member function and a variable",
-              "Create an object",
-              "Write a for loop"
-            ]
-      },
-
-      {
-        "section_no": 3,
-        "section_name": "OOP Concepts in Python",
-        "section_lectures": [
-          {
-            "lecture_no": 10,
-            "lecture_name": "How to Write OOP Concepts Program in Python",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "How to Write OOP Concepts Program in Python"
-            },
-            "lecture_file_path": "How to Write OOP Concepts Program in Python"
-          },
-          {
-            "lecture_no": 11,
-            "lecture_name": "Connecting to a Database",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Connecting to a Database"
-            },
-            "lecture_file_path": "Connecting to a Database"
-          },
-          {
-            "lecture_no": 12,
-            "lecture_name": "Classes and Objects in Python",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Classes and Objects in Python"
-            },
-            "lecture_file_path": "Classes and Objects in Python"
-          },
-          {
-            "lecture_no": 13,
-            "lecture_name": "OOPs Paradigm, Important Concepts in OOP like Polymorphism, Inheritance, Encapsulation",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "OOPs Paradigm, Important Concepts in OOP like Polymorphism, Inheritance, Encapsulation"
-            },
-            "lecture_file_path": "OOPs Paradigm, Important Concepts in OOP like Polymorphism, Inheritance, Encapsulation"
-          },
-          {
-            "lecture_no": 14,
-            "lecture_name": "Python Functions, Return Types, and Parameters",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Python Functions, Return Types, and Parameters"
-            },
-            "lecture_file_path": "Python Functions, Return Types, and Parameters"
-          },
-          {
-            "lecture_no": 15,
-            "lecture_name": "Lambda Expressions",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Lambda Expressions"
-            },
-            "lecture_file_path": "Lambda Expressions"
-          }
-        ],
-        "handsOnExercise": "Creating an application that helps to check balances, deposit money, and withdraw money using the concepts of OOPs."
-      },
-
-      {
-        "section_no": 4,
-        "section_name": "Database Connection",
-        "section_lectures": [
-          {
-            "lecture_no": 16,
-            "lecture_name": "Understanding the Database, Need for Database",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Understanding the Database, Need for Database"
-            },
-            "lecture_file_path": "Understanding the Database, Need for Database"
-          },
-          {
-            "lecture_no": 17,
-            "lecture_name": "Installing MySQL on Windows",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Installing MySQL on Windows"
-            },
-            "lecture_file_path": "Installing MySQL on Windows"
-          },
-          {
-            "lecture_no": 18,
-            "lecture_name": "Understanding Database Connections Using Python",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Understanding Database Connections Using Python"
-            },
-            "lecture_file_path": "Understanding Database Connections Using Python"
-          }
-        ],
-        "handsOnExercise": "Demo on database connection using Python and pulling the data."
-      },
-
-      {
-        "section_no": 5,
-        "section_name": "NumPy for Mathematical Computing",
-        "section_lectures": [
-          {
-            "lecture_no": 19,
-            "lecture_name": "Introduction to Arrays and Matrices",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Introduction to Arrays and Matrices"
-            },
-            "lecture_file_path": "Introduction to Arrays and Matrices"
-          },
-          {
-            "lecture_no": 20,
-            "lecture_name": "Broadcasting of Array Math, Indexing of Array",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Broadcasting of Array Math, Indexing of Array"
-            },
-            "lecture_file_path": "Broadcasting of Array Math, Indexing of Array"
-          },
-          {
-            "lecture_no": 21,
-            "lecture_name": "Standard Deviation, Conditional Probability, Correlation and Covariance",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Standard Deviation, Conditional Probability, Correlation and Covariance"
-            },
-            "lecture_file_path": "Standard Deviation, Conditional Probability, Correlation and Covariance"
-          }
-        ],
-        "handsOnExercise": [
-            "How to import the NumPy module?",
-            "Creating an array using ND-array",
-            "Calculating standard deviation on an array of numbers",
-            "Calculating the correlation between two variables"
-          ]
-      },
-
-      {
-        "section_no": 6,
-        "section_name": "SciPy for Scientific Computing",
-        "section_lectures": [
-          {
-            "lecture_no": 22,
-            "lecture_name": "Introduction to SciPy",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Introduction to SciPy"
-            },
-            "lecture_file_path": "Introduction to SciPy"
-          },
-          {
-            "lecture_no": 23,
-            "lecture_name": "Functions Building on Top of NumPy, Cluster, Linalg, Signal, Optimize, Integrate, Subpackages, and SciPy with Bayes’ Theorem",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Functions Building on Top of NumPy, Cluster, Linalg, Signal, Optimize, Integrate, Subpackages, and SciPy with Bayes’ Theorem"
-            },
-            "lecture_file_path": "Functions Building on Top of NumPy, Cluster, Linalg, Signal, Optimize, Integrate, Subpackages, and SciPy with Bayes’ Theorem"
-          }
-        ],
-        "handsOnExercise": [
-            "Importing of SciPy",
-            "Applying Bayes’ theorem to the given dataset"
-          ]
-      },
-
-      {
-        "section_no": 7,
-        "section_name": "Matplotlib for Data Visualization",
-        "section_lectures": [
-          {
-            "lecture_no": 24,
-            "lecture_name": "How to Plot Graphs and Charts with Python?",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "How to Plot Graphs and Charts with Python?"
-            },
-            "lecture_file_path": "How to Plot Graphs and Charts with Python?"
-          },
-          {
-            "lecture_no": 25,
-            "lecture_name": "Various Aspects of Line, Scatter, Bar, Histogram, 3D, the API of Matplotlib, and Subplots",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Various Aspects of Line, Scatter, Bar, Histogram, 3D, the API of Matplotlib, and Subplots"
-            },
-            "lecture_file_path": "Various Aspects of Line, Scatter, Bar, Histogram, 3D, the API of Matplotlib, and Subplots"
-          }
-        ],
-        "handsOnExercise": [
-            "Deploying Matplotlib for creating Pie, Scatter, Line, and Histogram"
-          ]
-      },
-
-      {
-        "section_no": 8,
-        "section_name": "Pandas for Data Analysis and Machine Learning",
-        "section_lectures": [
-          {
-            "lecture_no": 26,
-            "lecture_name": "Introduction to Python DataFrames",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Introduction to Python DataFrames"
-            },
-            "lecture_file_path": "Introduction to Python DataFrames"
-          },
-          {
-            "lecture_no": 27,
-            "lecture_name": "Importing Data from JSON, CSV, Excel, SQL Database, NumPy Array to DataFrame",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Importing Data from JSON, CSV, Excel, SQL Database, NumPy Array to DataFrame"
-            },
-            "lecture_file_path": "Importing Data from JSON, CSV, Excel, SQL Database, NumPy Array to DataFrame"
-          },
-          {
-            "lecture_no": 28,
-            "lecture_name": "Various Data Operations like Selecting, Filtering, Sorting, Viewing, Joining, Combining",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Various Data Operations like Selecting, Filtering, Sorting, Viewing, Joining, Combining"
-            },
-            "lecture_file_path": "Various Data Operations like Selecting, Filtering, Sorting, Viewing, Joining, Combining"
-          }
-        ],
-        "handsOnExercise": [
-            "Working on importing data from JSON files",
-            "Selecting record by a group",
-            "Applying filter on top, viewing records"
-          ]
-      },
-
-      {
-        "section_no": 9,
-        "section_name": "Exception Handling",
-        "section_lectures": [
-          {
-            "lecture_no": 29,
-            "lecture_name": "Introduction to Exception Handling",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Introduction to Exception Handling"
-            },
-            "lecture_file_path": "Introduction to Exception Handling"
-          },
-          {
-            "lecture_no": 30,
-            "lecture_name": "Scenarios in Exception Handling with Its Execution",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Scenarios in Exception Handling with Its Execution"
-            },
-            "lecture_file_path": "Scenarios in Exception Handling with Its Execution"
-          },
-          {
-            "lecture_no": 31,
-            "lecture_name": "Arithmetic Exception",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Arithmetic Exception"
-            },
-            "lecture_file_path": "Arithmetic Exception"
-          },
-          {
-            "lecture_no": 32,
-            "lecture_name": "RAISE of Exception",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "RAISE of Exception"
-            },
-            "lecture_file_path": "RAISE of Exception"
-          },
-          {
-            "lecture_no": 33,
-            "lecture_name": "What is Random List, Running a Random List on Jupyter Notebook",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "What is Random List, Running a Random List on Jupyter Notebook"
-            },
-            "lecture_file_path": "What is Random List, Running a Random List on Jupyter Notebook"
-          },
-          {
-            "lecture_no": 34,
-            "lecture_name": "Value Error in Exception Handling",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Value Error in Exception Handling"
-            },
-            "lecture_file_path": "Value Error in Exception Handling"
-          }
-        ],
-        "handsOnExercise": "Demo on Exception Handling with an Industry-Based Use Case"
-
-      },
-
-      {
-        "section_no": 10,
-        "section_name": "Multi-Threading and Race Condition",
-        "section_lectures": [
-          {
-            "lecture_no": 35,
-            "lecture_name": "Introduction to Thread, the Need of Threads",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Introduction to Thread, the Need of Threads"
-            },
-            "lecture_file_path": "Introduction to Thread, the Need of Threads"
-          },
-          {
-            "lecture_no": 36,
-            "lecture_name": "What are Thread Functions?",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "What are Thread Functions?"
-            },
-            "lecture_file_path": "What are Thread Functions?"
-          },
-          {
-            "lecture_no": 37,
-            "lecture_name": "Performing Various Operations on Thread like Joining a Thread, Starting a Thread, and Enumeration in a Thread",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Performing Various Operations on Thread like Joining a Thread, Starting a Thread, and Enumeration in a Thread"
-            },
-            "lecture_file_path": "Performing Various Operations on Thread like Joining a Thread, Starting a Thread, and Enumeration in a Thread"
-          },
-          {
-            "lecture_no": 38,
-            "lecture_name": "Creating a Multithread, Finishing the Multithreads",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Creating a Multithread, Finishing the Multithreads"
-            },
-            "lecture_file_path": "Creating a Multithread, Finishing the Multithreads"
-          },
-          {
-            "lecture_no": 39,
-            "lecture_name": "Understanding Race Condition, Lock, and Synchronization",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Understanding Race Condition, Lock, and Synchronization"
-            },
-            "lecture_file_path": "Understanding Race Condition, Lock, and Synchronization"
-          }  
-        ],
-        "handsOnExercise": "Demo on Starting a Thread and a Multithread and Then Performing Multiple Operations on Them"
-      },
-
-      {
-        "section_no": 11,
-        "section_name": "Packages and Functions",
-        "section_lectures": [
-          {
-            "lecture_no": 40,
-            "lecture_name": "Introduction to Modules in Python, the Need for Modules",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Introduction to Modules in Python, the Need for Modules"
-            },
-            "lecture_file_path": "Introduction to Modules in Python, the Need for Modules"
-          },
-          {
-            "lecture_no": 41,
-            "lecture_name": "How to Import Modules in Python",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "How to Import Modules in Python"
-            },
-            "lecture_file_path": "How to Import Modules in Python"
-          },
-          {
-            "lecture_no": 42,
-            "lecture_name": "Locating a Module, Namespace, and Scoping",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Locating a Module, Namespace, and Scoping"
-            },
-            "lecture_file_path": "Locating a Module, Namespace, and Scoping"
-          },
-          {
-            "lecture_no": 43,
-            "lecture_name": "Arithmetic Operations on Modules Using a Function",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Arithmetic Operations on Modules Using a Function"
-            },
-            "lecture_file_path": "Arithmetic Operations on Modules Using a Function"
-          },
-          {
-            "lecture_no": 44,
-            "lecture_name": "Introduction to the Search Path, Global and Local Functions, Filter Functions",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Introduction to the Search Path, Global and Local Functions, Filter Functions"
-            },
-            "lecture_file_path": "Introduction to the Search Path, Global and Local Functions, Filter Functions"
-          },  
-          {
-            "lecture_no": 45,
-            "lecture_name": "Python Packages, Import in Packages, Various Ways of Accessing the Packages",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Python Packages, Import in Packages, Various Ways of Accessing the Packages"
-            },
-            "lecture_file_path": "Python Packages, Import in Packages, Various Ways of Accessing the Packages"
-          },  
-          {
-            "lecture_no": 46,
-            "lecture_name": "Decorators, Pointer Assignments, and Xldr",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Decorators, Pointer Assignments, and Xldr"
-            },
-            "lecture_file_path": "Decorators, Pointer Assignments, and Xldr"
-          }
-        ],
-        "handsOnExercise": [
-            "Demo on Importing the Modules and Performing Various Operations on Them Using Arithmetic Functions",
-            "Importing Various Packages, Accessing Them, and Then Performing Different Operations on Them"
-          ]      
-      },
-
-      {
-        "section_no": 12,
-        "section_name": "Web Scraping with Python",
-        "section_lectures": [
-          {
-            "lecture_no": 47,
-            "lecture_name": "Introduction to Web Scraping in Python",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Introduction to Web Scraping in Python"
-            },
-            "lecture_file_path": "Introduction to Web Scraping in Python"
-          },
-          {
-            "lecture_no": 48,
-            "lecture_name": "Installing Beautiful Soup",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Installing Beautiful Soup"
-            },
-            "lecture_file_path": "Installing Beautiful Soup"
-          },
-          {
-            "lecture_no": 49,
-            "lecture_name": "Installing Python Parser lxml",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Installing Python Parser lxml"
-            },
-            "lecture_file_path": "Installing Python Parser lxml"
-          },
-          {
-            "lecture_no": 50,
-            "lecture_name": "Various Web Scraping Libraries, Beautiful Soup, Scrapy Python Packages",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Various Web Scraping Libraries, Beautiful Soup, Scrapy Python Packages"
-            },
-            "lecture_file_path": "Various Web Scraping Libraries, Beautiful Soup, Scrapy Python Packages"
-          },
-          {
-            "lecture_no": 51,
-            "lecture_name": "Creating Soup Object with Input HTML",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Creating Soup Object with Input HTML"
-            },
-            "lecture_file_path": "Creating Soup Object with Input HTML"
-          },  
-          {
-            "lecture_no": 52,
-            "lecture_name": "Searching of Tree, Full or Partial Parsing, Output Print",
-            "lecture_cloud_link": {
-              "domain_url": "https://url.com",
-              "bucket": "Courses",
-              "folder_name": "Python",
-              "file_name": "Searching of Tree, Full or Partial Parsing, Output Print"
-            },
-            "lecture_file_path": "Searching of Tree, Full or Partial Parsing, Output Print"
-          }  
-        ],
-        "handsOnExercise": [
-            "Installation of Beautiful Soup and lxml Python Parser",
-            "Making a Soup Object with Input HTML File",
-            "Navigating Using Py Objects in the Soup Tree"
-          ]     
-      }
-    ]
-  }]
+]

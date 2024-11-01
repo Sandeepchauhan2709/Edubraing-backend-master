@@ -1,0 +1,1016 @@
+[
+    {
+    "course_name": "Machine Learning",
+    "slug": "machinelearning",
+    "category": "technical",
+    "sections": [
+      {
+        "section_no": 1,
+        "section_name": " Introduction to Machine Learning",
+        "section_lectures": [
+          {
+            "lecture_no": 1,
+            "lecture_name": "What is Machine Learning?",
+            "lecture_cloud_link": { 
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "What is Machine Learning?"
+            },
+            "lecture_file_path": "What is Machine Learning?"
+          },
+          {
+            "lecture_no": 2,
+            "lecture_name": "Types of Machine Learning:",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Types of Machine Learning:"
+            },
+            "lecture_file_path": "Types of Machine Learning:"
+          },
+          {
+            "lecture_no": 3,
+            "lecture_name": "Type 1: Supervised Machine Learning",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Type 1: Supervised Machine Learning"
+            },
+            "lecture_file_path": "Type 1: Supervised Machine Learning"
+          },
+          {
+            "lecture_no": 4,
+            "lecture_name": "Type 2: Unsupervised Machine Learning",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Type 2: Unsupervised Machine Learning"
+            },
+            "lecture_file_path": "Type 2: Unsupervised Machine Learning"
+          },
+          {
+            "lecture_no": 5,
+            "lecture_name": "Type 3: Semi-supervised Machine Learning",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Type 3: Semi-supervised Machine Learning"
+            },
+            "lecture_file_path": "Type 3: Semi-supervised Machine Learning"
+          },
+          {
+            "lecture_no": 6,
+            "lecture_name": "Reinforcement learning & its Applications",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Reinforcement learning & its Applications"
+            },
+            "lecture_file_path": "Reinforcement learning & its Applications"
+          }
+        ]
+      },
+      {
+        "section_no": 2,
+        "section_name": "Machine Learning Workflow",
+        "section_lectures": [
+          {
+            "lecture_no": 7,
+            "lecture_name": "Overview of Machine Learning Workflow",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Overview of Machine Learning Workflow"
+            },
+            "lecture_file_path": "Overview of Machine Learning Workflow"
+          },
+          {
+            "lecture_no": 8,
+            "lecture_name": "Workflow-Part 1",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Workflow-Part 1"
+            },
+            "lecture_file_path": "Workflow-Part 1"
+          },
+          {
+            "lecture_no": 9,
+            "lecture_name": "Workflow - Part 2",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Workflow - Part 2"
+            },
+            "lecture_file_path": "Workflow - Part 2"
+          }, 
+          {
+            "lecture_no": 10,
+            "lecture_name": "Workflow - Part 3",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Workflow - Part 3"
+            },
+            "lecture_file_path": "Workflow - Part 3"
+          }, 
+          {
+            "lecture_no": 11,
+            "lecture_name": "Workflow - Part 4",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Workflow - Part 4"
+            },
+            "lecture_file_path": "Workflow - Part 4"
+          } 
+        ]
+      },
+      {
+        "section_no": 3,
+        "section_name": "Evaluation Metrics",
+        "section_lectures": [
+          {
+            "lecture_no": 12,
+            "lecture_name": "Evaluation metrics for Regression(Part-1)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Evaluation metrics for Regression(Part-1)"
+            },
+            "lecture_file_path": "Evaluation metrics for Regression(Part-1)"
+          },
+          {
+            "lecture_no": 13,
+            "lecture_name": "Evaluation metrics for Regression(Part-2)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Evaluation metrics for Regression(Part-2)"
+            },
+            "lecture_file_path": "Evaluation metrics for Regression(Part-2)"
+          },
+          {
+            "lecture_no": 14,
+            "lecture_name": "Evaluation Metrics Classification(Part-1)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Evaluation Metrics Classification(Part-1)"
+            },
+            "lecture_file_path": "Evaluation Metrics Classification(Part-1)"
+          },
+          {
+            "lecture_no": 15,
+            "lecture_name": "Evaluation Metrics Classification(Part-2)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Evaluation Metrics Classification(Part-2)"
+            },
+            "lecture_file_path": "Evaluation Metrics Classification(Part-2)"
+          },
+          {
+            "lecture_no": 16,
+            "lecture_name": "Handling Imbalanced Data",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Handling Imbalanced Data"
+            },
+            "lecture_file_path": "Handling Imbalanced Data"
+          }
+        ]
+      },
+      {
+        "section_no": 4,
+        "section_name": "K-Nearest Neighbor (KNN)",
+        "section_lectures": [
+          {
+            "lecture_no": 17,
+            "lecture_name": "K-Nearest Neighbor (Part-1)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "K-Nearest Neighbor (Part-1)"
+            },
+            "lecture_file_path": "K-Nearest Neighbor (Part-1)"
+          },
+          {
+            "lecture_no": 18,
+            "lecture_name": "K-Nearest Neighbor (Part-2)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "K-Nearest Neighbor (Part-2)"
+            },
+            "lecture_file_path": "K-Nearest Neighbor (Part-2)"
+          },
+          {
+            "lecture_no": 19,
+            "lecture_name": "K-Nearest Neighbor (Part-3)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "K-Nearest Neighbor (Part-3)"
+            },
+            "lecture_file_path": "K-Nearest Neighbor (Part-3)"
+          },
+          {
+            "lecture_no": 20,
+            "lecture_name": "K-Nearest Neighbor (Part-4)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "K-Nearest Neighbor (Part-4)"
+            },
+            "lecture_file_path": "K-Nearest Neighbor (Part-4)"
+          },
+          {
+            "lecture_no": 21,
+            "lecture_name": "K-Nearest Neighbor (Part-5)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "K-Nearest Neighbor (Part-5)"
+            },
+            "lecture_file_path": "K-Nearest Neighbor (Part-5)"
+          }
+        
+        ]
+      },
+      {
+        "section_no": 5,
+        "section_name": "Data Encoding",
+        "section_lectures": [
+          {
+            "lecture_no": 22,
+            "lecture_name": "Encoding (Part-1)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Encoding (Part-1)"
+            },
+            "lecture_file_path": "Encoding (Part-1)"
+          },
+          {
+            "lecture_no": 23,
+            "lecture_name": "Encoding (Part-2)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Encoding (Part-2)"
+            },
+            "lecture_file_path": "Encoding (Part-2)"
+          },
+          {
+            "lecture_no": 24,
+            "lecture_name": "Encoding (Part-3)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Encoding (Part-3)"
+            },
+            "lecture_file_path": "Encoding (Part-3)"
+          }
+    
+        ]
+      },
+      {
+        "section_no": 6,
+        "section_name": "Support Vector Machine (SVM)",
+        "section_lectures": [
+          {
+            "lecture_no": 25,
+            "lecture_name": "Support Vector Machine (Part-1)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Support Vector Machine (Part-1)",
+              "file_name": "Formula Analysis"
+            },
+            "lecture_file_path": "Support Vector Machine (Part-1)"
+          },
+          {
+            "lecture_no": 26,
+            "lecture_name": "Support Vector Machine (Part-2)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Support Vector Machine (Part-2)",
+              "file_name": "Formula Analysis"
+            },
+            "lecture_file_path": "Support Vector Machine (Part-2)"
+          },
+          {
+            "lecture_no": 27,
+            "lecture_name": "Support Vector Machine (Part-3)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Support Vector Machine (Part-3)",
+              "file_name": "Formula Analysis"
+            },
+            "lecture_file_path": "Support Vector Machine (Part-3)"
+          },
+          {
+            "lecture_no": 28,
+            "lecture_name": "Support Vector Machine (Part-4)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Support Vector Machine (Part-4)",
+              "file_name": "Formula Analysis"
+            },
+            "lecture_file_path": "Support Vector Machine (Part-4)"
+          },
+          {
+            "lecture_no": 29,
+            "lecture_name": "Support Vector Machine (Part-5)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Support Vector Machine (Part-5)",
+              "file_name": "Formula Analysis"
+            },
+            "lecture_file_path": "Support Vector Machine (Part-5)"
+          },
+          {
+            "lecture_no": 30,
+            "lecture_name": "Support Vector Machine (Part-6)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Support Vector Machine (Part-6)",
+              "file_name": "Formula Analysis"
+            },
+            "lecture_file_path": "Support Vector Machine (Part-6)"
+          }
+        ]
+      },
+      {
+        "section_no": 7,
+        "section_name": "Hyperparameter Tuning",
+        "section_lectures": [
+          {
+            "lecture_no": 31,
+            "lecture_name": "Hyperparameter Tuning",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Hyperparameter Tuning"
+            },
+            "lecture_file_path": "Hyperparameter Tuning"
+          },  
+          {
+            "lecture_no": 32,
+            "lecture_name": "Hyperparmater Tuning (Part-1)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Hyperparmater Tuning (Part-1)"
+            },
+            "lecture_file_path": "Hyperparmater Tuning (Part-1)"
+          },  
+          {
+            "lecture_no": 33,
+            "lecture_name": "Hyperparmater Tuning (Part-2)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Hyperparmater Tuning (Part-2)"
+            },
+            "lecture_file_path": "Hyperparmater Tuning (Part-2)"
+          }  
+        ]
+      },
+      { 
+        "section_no": 8,
+        "section_name": "Naive Bayes Classifier",
+        "section_lectures": [
+          {
+            "lecture_no": 34,
+            "lecture_name": "Naive Bayes Classifier (Part-1)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Naive Bayes Classifier (Part-1)"
+            },
+            "lecture_file_path": "Naive Bayes Classifier (Part-1)"
+          },  
+          {
+            "lecture_no": 35,
+            "lecture_name": "Naive Bayes Classifier (Part-2)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Naive Bayes Classifier (Part-2)"
+            },
+            "lecture_file_path": "Naive Bayes Classifier (Part-2)"
+          },  
+          {
+            "lecture_no": 36,
+            "lecture_name": "Naive Bayes Classifier (Part-3)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Naive Bayes Classifier (Part-3)"
+            },
+            "lecture_file_path": "Naive Bayes Classifier (Part-3)"
+          },  
+          {
+            "lecture_no": 37,
+            "lecture_name": "Naive Bayes Classifier (Part-4)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Naive Bayes Classifier (Part-4)"
+            },
+            "lecture_file_path": "Naive Bayes Classifier (Part-4)"
+          }
+        ]
+      },
+      {
+        "section_no": 9,
+        "section_name": "Project 1",
+        "section_lectures": [
+          {
+            "lecture_no": 38,
+            "lecture_name": "Project 1: KNN | Logistic Regression | Text Classification",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Project 1: KNN | Logistic Regression | Text Classification"
+            },
+            "lecture_file_path": "Project 1: KNN | Logistic Regression | Text Classification"
+          }, 
+          {
+            "lecture_no": 39,
+            "lecture_name": "Project 1: KNN | Logistic Regression | Text Classification (Part-2)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Project 1: KNN | Logistic Regression | Text Classification (Part-2)"
+            },
+            "lecture_file_path": "Project 1: KNN | Logistic Regression | Text Classification (Part-2)"
+          }
+        ]
+      },
+      {
+        "section_no": 10,
+        "section_name": "Decision Trees",
+        "section_lectures": [
+          {
+            "lecture_no": 40,
+            "lecture_name": "Decision Tree (Part-1)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Decision Tree (Part-1)"
+            },
+            "lecture_file_path": "Decision Tree (Part-1)"
+          },
+          {
+            "lecture_no": 41,
+            "lecture_name": "Decision Tree (Part-2)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Decision Tree (Part-2)"
+            },
+            "lecture_file_path": "Decision Tree (Part-2)"
+          }, 
+          {
+            "lecture_no": 42,
+            "lecture_name": "Decision Tree (Part-3)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Decision Tree (Part-3)"
+            },
+            "lecture_file_path": "Decision Tree (Part-3)"
+          }, 
+          {
+            "lecture_no": 43,
+            "lecture_name": "Decision Tree (Part-4)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Decision Tree (Part-4)"
+            },
+            "lecture_file_path": "Decision Tree (Part-4)"
+          }
+         
+        ]
+      },
+      {
+        "section_no": 11,
+        "section_name": "Model Performance and Improvement",
+        "section_lectures": [
+          {
+            "lecture_no": 44,
+            "lecture_name": "Bias-Variance Trade Off",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Bias-Variance Trade Off"
+            },
+            "lecture_file_path": "Bias-Variance Trade Off"
+          }    
+        ]
+      },
+      {
+        "section_no": 12,
+        "section_name": "Ensemble Learning",
+        "section_lectures": [
+          {
+            "lecture_no": 45,
+            "lecture_name": "Ensemble Learning (Part-1)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Ensemble Learning (Part-1)"
+            },
+            "lecture_file_path": "Ensemble Learning (Part-1)"
+          }, 
+          {
+            "lecture_no": 46,
+            "lecture_name": "Ensemble Learning (Part-2)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Ensemble Learning (Part-2)"
+            },
+            "lecture_file_path": "Ensemble Learning (Part-2)"
+          },
+          {
+            "lecture_no": 47,
+            "lecture_name": "Ensemble Learning (Part-3 XGBOOST)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Ensemble Learning (Part-3 XGBOOST)"
+            },
+            "lecture_file_path": "Ensemble Learning (Part-3 XGBOOST)"
+          },
+          {
+            "lecture_no": 48,
+            "lecture_name": "Ensemble Learning (Part-4 ADABOOST)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Ensemble Learning (Part-4 ADABOOST)"
+            },
+            "lecture_file_path": "Ensemble Learning (Part-4 ADABOOST)"
+          },
+          {
+            "lecture_no": 49,
+            "lecture_name": "Ensemble Learning (Part-5)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Ensemble Learning (Part-5)"
+            },
+            "lecture_file_path": "Ensemble Learning (Part-5)"
+          },
+          {
+            "lecture_no": 50,
+            "lecture_name": "Ensemble Learning (Part-6)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Ensemble Learning (Part-6)"
+            },
+            "lecture_file_path": "Ensemble Learning (Part-6)"
+          }
+        ]
+      },
+      {
+        "section_no": 13,
+        "section_name": "Regression",
+        "section_lectures": [
+          {
+            "lecture_no": 51,
+            "lecture_name": "Regression (Part-1)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Regression (Part-1)"
+            },
+            "lecture_file_path": "Regression (Part-1)"
+          }, 
+          {
+            "lecture_no": 52,
+            "lecture_name": "Regression (Part-2)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Regression (Part-2)"
+            },
+            "lecture_file_path": "Regression (Part-2)"
+          }
+        ]
+      },
+      {
+        "section_no": 14,
+        "section_name": "Natural Language Processing (NLP)",
+        "section_lectures": [
+          {
+            "lecture_no": 53,
+            "lecture_name": "Natural Language Processing(part-1)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Natural Language Processing(part-1)"
+            },
+            "lecture_file_path": "Natural Language Processing(part-1)"
+          }, 
+          {
+            "lecture_no": 54,
+            "lecture_name": "Natural Language Processing(part-2)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Natural Language Processing(part-2)"
+            },
+            "lecture_file_path": "Natural Language Processing(part-2)"
+          }, 
+          {
+            "lecture_no": 55,
+            "lecture_name": "Natural Language Processing(part-3)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Natural Language Processing(part-3)"
+            },
+            "lecture_file_path": "Natural Language Processing(part-3)"
+          }, 
+          {
+            "lecture_no": 56,
+            "lecture_name": "Natural Language Processing(part-4)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Natural Language Processing(part-4)"
+            },
+            "lecture_file_path": "Natural Language Processing(part-4)"
+          }, 
+          {
+            "lecture_no": 57,
+            "lecture_name": "Natural Language Processing(part-5)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Natural Language Processing(part-5)"
+            },
+            "lecture_file_path": "Natural Language Processing(part-5)"
+          },         
+          {
+            "lecture_no": 58,
+            "lecture_name": "Project: Natural Language Processing:Restaurant's Reviews and Likes",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Project: Natural Language Processing:Restaurant's Reviews and Likes"
+            },
+            "lecture_file_path": "Project: Natural Language Processing:Restaurant's Reviews and Likes"
+          }         
+        ]
+      },
+      {
+        "section_no": 15,
+        "section_name": "Supervised Learning Projects",
+        "section_lectures": [
+          {
+            "lecture_no": 59,
+            "lecture_name": "Supervised Learning Project: Online Food Prediction",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Supervised Learning Project: Online Food Prediction"
+            },
+            "lecture_file_path": "Supervised Learning Project: Online Food Prediction"
+          }, 
+          {
+            "lecture_no": 60,
+            "lecture_name": "Supervised Learning Project: Online Food Prediction (Part-2)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Supervised Learning Project: Online Food Prediction (Part-2)"
+            },
+            "lecture_file_path": "Supervised Learning Project: Online Food Prediction (Part-2)"
+          }, 
+          {
+            "lecture_no": 61,
+            "lecture_name": "Zoo Animal Classification -1",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Zoo Animal Classification -1"
+            },
+            "lecture_file_path": "Zoo Animal Classification -1"
+          }, 
+          {
+            "lecture_no": 62,
+            "lecture_name": "Zoo Animal Classification(Part-2)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Zoo Animal Classification(Part-2)"
+            },
+            "lecture_file_path": "Zoo Animal Classification(Part-2)"
+          }    
+        ]
+      },
+      {
+        "section_no": 16,
+        "section_name": "Clustering",
+        "section_lectures": [
+          {
+            "lecture_no": 63,
+            "lecture_name": "Clustering",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Clustering"
+            },
+            "lecture_file_path": "Clustering"
+          }, 
+          {
+            "lecture_no": 64,
+            "lecture_name": "Understanding K-means",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Understanding K-means"
+            },
+            "lecture_file_path": "Understanding K-means"
+          }, 
+          {
+            "lecture_no": 65,
+            "lecture_name": "How K-means works?",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "How K-means works?"
+            },
+            "lecture_file_path": "How K-means works?"
+          }, 
+          {
+            "lecture_no": 66,
+            "lecture_name": "Using K-means while coding",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Using K-means while coding"
+            },
+            "lecture_file_path": "Using K-means while coding"
+          }, 
+          {
+            "lecture_no": 67,
+            "lecture_name": "Unsupervised Machine Learning: Coding",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Unsupervised Machine Learning: Coding"
+            },
+            "lecture_file_path": "Unsupervised Machine Learning: Coding"
+          },
+          {
+            "lecture_no": 68,
+            "lecture_name": "Understanding Density Based Spatial Clustering Of Applications with Noise(DBSCAN)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Understanding Density Based Spatial Clustering Of Applications with Noise(DBSCAN)"
+            },
+            "lecture_file_path": "Understanding Density Based Spatial Clustering Of Applications with Noise(DBSCAN)"
+          },
+          {
+            "lecture_no": 69,
+            "lecture_name": "Comparison : DBscan VS K-means",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Comparison : DBscan VS K-means"
+            },
+            "lecture_file_path": "Comparison : DBscan VS K-means"
+          }        
+        ]
+      },
+      {
+        "section_no": 17,
+        "section_name": "Dimensionality Reduction",
+        "section_lectures": [ 
+          {
+            "lecture_no": 70,
+            "lecture_name": "Understanding Principal Component Analysis",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Understanding Principal Component Analysis"
+            },
+            "lecture_file_path": "Understanding Principal Component Analysis"
+          },
+          {
+            "lecture_no": 71,
+            "lecture_name": "Understanding Principal Component Analysis (Practically)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Understanding Principal Component Analysis (Practically)"
+            },
+            "lecture_file_path": "Understanding Principal Component Analysis (Practically)"
+          },
+          {
+            "lecture_no": 72,
+            "lecture_name": "Understanding Factor Analysis",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Understanding Factor Analysis"
+            },
+            "lecture_file_path": "Understanding Factor Analysis"
+          },
+          {
+            "lecture_no": 73,
+            "lecture_name": "Understanding Factor Analysis(Practically)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Understanding Factor Analysis(Practically)"
+            },
+            "lecture_file_path": "Understanding Factor Analysis(Practically)"
+          }
+         
+        ]
+      },
+      {
+        "section_no": 18,
+        "section_name": "Association Rule Mining",
+        "section_lectures": [ 
+          {
+            "lecture_no": 74,
+            "lecture_name": "Association Rule - Mining",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Association Rule - Mining"
+            },
+            "lecture_file_path": "Association Rule - Mining"
+          }, 
+          {
+            "lecture_no": 75,
+            "lecture_name": "Association Rule Mining(Part-2)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Association Rule Mining(Part-2)"
+            },
+            "lecture_file_path": "Association Rule Mining(Part-2)"
+          }
+         
+        ]
+      },
+      {
+        "section_no": 19,
+        "section_name": "Unsupervised ML Projects",
+        "section_lectures": [ 
+          {
+            "lecture_no": 76,
+            "lecture_name": "Unsupervised ML: Project: KMEANS & DBSCAN",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Unsupervised ML: Project: KMEANS & DBSCAN"
+            },
+            "lecture_file_path": "Unsupervised ML: Project: KMEANS & DBSCAN"
+          }, 
+          {
+            "lecture_no": 77,
+            "lecture_name": "Unsupervised ML: Project: KMEANS & DBSCAN(Part-2)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Unsupervised ML: Project: KMEANS & DBSCAN(Part-2)"
+            },
+            "lecture_file_path": "Unsupervised ML: Project: KMEANS & DBSCAN(Part-2)"
+          },
+          {
+            "lecture_no": 78,
+            "lecture_name": "Unsupervised learning:Project 2(Using some other applications)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Unsupervised learning:Project 2(Using some other applications)"
+            },
+            "lecture_file_path": "Unsupervised learning:Project 2(Using some other applications)"
+          }
+        ]
+      },
+      {
+        "section_no": 20,
+        "section_name": "Interview Preparation",
+        "section_lectures": [ 
+          {
+            "lecture_no": 79,
+            "lecture_name": "Interview Questions",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Interview Questions"
+            },
+            "lecture_file_path": "Interview Questions"
+          }, 
+          {
+            "lecture_no": 80,
+            "lecture_name": "Interview Questions(Part-2)",
+            "lecture_cloud_link": {
+              "domain_url": "https://edubraining.s3.ap-south-1.amazonaws.com/",
+              "bucket": "Courses",
+              "folder_name": "Machine Learning",
+              "file_name": "Interview Questions(Part-2)"
+            },
+            "lecture_file_path": "Interview Questions(Part-2)"
+          }
+         
+        ]
+      }
+    ]
+  }
+  
+  ]
